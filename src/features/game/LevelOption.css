@@ -10,9 +10,10 @@
 .level-points{font-size:12px;font-weight:var(--font-weight-regular);line-height:var(--line-height-normal);color:var(--color-text-supporting)}@media(max-width:650px){.level-points{font-size:15px}}
 .level-points{font:var(--text-body-small);color:var(--color-text-supporting)}@media(max-width:480px){.level-points{font-size:14px}}
 @media(min-width:651px){.level-points{font-size:11px;color:var(--color-text-supporting)}}
+@media(min-width:651px){.level-option .level-label{font-size:var(--font-size-base)}}
 .level-option:first-child::before{width:3px;height:3px;margin:0 17px 17px 0;background:var(--color-text);mask:none;box-shadow:5px 0 var(--color-text),10px 0 var(--color-text),15px 0 var(--color-text),0 5px var(--color-text),5px 5px var(--color-text),10px 5px var(--color-text),15px 5px var(--color-text),0 10px var(--color-text),5px 10px var(--color-text),10px 10px var(--color-text),15px 10px var(--color-text),0 15px var(--color-text),5px 15px var(--color-text),10px 15px var(--color-text),15px 15px var(--color-text)}
 .level-option:nth-child(3)::before{width:20px;height:20px;border-radius:50%;background:conic-gradient(#1a1a1a 0 90deg,#8a8a8a 90deg 200deg,#e4e4e4 200deg 360deg);mask-image:none}
-@media(max-width:480px){.level-option{padding:8px 4px;gap:5px}.level-option::before,.level-option:nth-child(3)::before{width:14px;height:14px}.level-option .level-label{font-size:12px}}
+@media(max-width:480px){.level-option{padding:8px 4px;gap:5px}.level-option::before,.level-option:nth-child(3)::before{width:14px;height:14px}.level-option .level-label{font-size:16px}.level-points{font-size:11px}}
 .level-option{position:relative}
 .level-info{position:absolute;top:8px;right:8px;display:grid;place-items:center;width:20px;height:20px;padding:0;border:0;border-radius:50%;background:transparent;color:var(--color-text-supporting);cursor:pointer}
 .level-info:hover,.level-info:focus-visible{color:var(--color-text)}
