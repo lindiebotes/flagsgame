@@ -1,6 +1,7 @@
 .color-share{display:flex;align-items:center;justify-content:center;gap:var(--space-4);margin-top:var(--space-4)}
+@media(min-width:651px){.color-share{width:960px;max-width:100%}}
 .color-share-pie{width:76px;height:76px;flex:none;border-radius:50%;box-shadow:0 0 0 1px var(--color-border-strong)}
 .color-share-legend{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
-.color-share-legend li{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--color-text)}
+.color-share-legend li{display:flex;align-items:center;gap:8px;font-size:18px;color:var(--color-text)}
 .color-share-swatch{width:12px;height:12px;flex:none;border-radius:2px;box-shadow:0 0 0 1px var(--color-border-strong)}
 @media(max-width:650px){.color-share-pie{width:60px;height:60px}.color-share-legend li{font-size:12px}}
