@@ -11,3 +11,5 @@
 .answer-option.wrong:not(.is-selected){background:var(--color-wrong-background);border-color:var(--color-wrong)}.answer-option.wrong:not(.is-selected) .answer-key{background:var(--color-wrong-key);border-color:var(--color-wrong)}.answer-option.wrong .answer-indicator{color:var(--color-wrong)}
 @media(max-width:480px){.answer-option{padding:10px;font-size:calc(var(--font-size-base) * 0.8125);gap:8px}.answer-key{width:20px;height:20px;font-size:calc(var(--font-size-base) * 0.9375)}}
 @media(max-width:480px){.answer-option{min-height:44px;padding:var(--space-2);font-size:var(--font-size-sm)}.answer-key{font-size:calc(var(--font-size-base) * .75)}}
+@media(min-width:651px) and (max-width:850px){.answer-option.is-selected,.answer-option.is-selected.correct,.answer-option.is-selected.wrong{box-shadow:var(--shadow-card)}}
+@media(min-width:651px) and (max-width:850px){.answer-option{min-height:44px;padding:var(--space-2)}}

@@ -1,1 +1,10 @@
 .app-shell{min-height:100vh;background:var(--color-background);color:var(--color-text);font-family:var(--font-family-body)}
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after{animation-duration:.01ms!important;animation-delay:0ms!important;transition-duration:0ms!important;scroll-behavior:auto!important}
+@media(prefers-reduced-motion:no-preference){
+  ::view-transition-old(settings-control){animation:settings-icon-out 300ms ease both}
+  ::view-transition-new(settings-control){animation:settings-icon-in 300ms ease both}
+  ::view-transition-old(root){animation-duration:200ms}
+  ::view-transition-new(root){animation-duration:200ms}
+  @keyframes settings-icon-out{to{opacity:0;transform:rotate(90deg) scale(.8)}}
+  @keyframes settings-icon-in{from{opacity:0;transform:rotate(-90deg) scale(.8)}to{opacity:1;transform:rotate(0) scale(1)}}
+}

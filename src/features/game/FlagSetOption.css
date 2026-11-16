@@ -23,3 +23,6 @@
 .flag-set-name{flex:none}
 @media(max-width:480px){.flag-set-option{padding:var(--space-2);min-height:130px}}
 @media(prefers-reduced-motion:reduce){.flag-set-previews img{transition:none}}
+.flag-set-name{font:var(--text-selection-label)}
+.flag-set-bonus{font:var(--text-supporting-caption)}
+@media(min-width:651px) and (max-width:850px){.flag-set-option.is-selected{box-shadow:var(--shadow-selection)}.flag-set-previews img{box-shadow:var(--shadow-card)}}

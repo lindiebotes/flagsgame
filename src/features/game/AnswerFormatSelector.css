@@ -7,3 +7,6 @@
 .answer-format-option input:focus-visible{outline:2px solid var(--color-text);outline-offset:3px}
 @media(max-width:480px){.answer-format{margin-top:var(--space-4)}.answer-format legend{font-size:calc(var(--font-size-base) * 1.4375)}.answer-format-options{display:flex;flex-direction:column}.answer-format-option{font-size:calc(var(--font-size-base) * 0.75);padding:var(--space-2)}}
 @media(min-width:651px){.answer-format-option{font-size:var(--font-size-base)}}
+.answer-format-option{font:var(--text-selection-label)}
+.answer-format legend{font:var(--text-section-heading)}
+@media(min-width:651px) and (max-width:850px){.answer-format-option.is-selected{box-shadow:var(--shadow-selection)}}
