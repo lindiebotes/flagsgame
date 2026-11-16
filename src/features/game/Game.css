@@ -82,7 +82,7 @@
 .flag-display{min-height:120px;padding:6px}
 .flag-hint{font-size:11px}
 .instruction,.feedback{font-size:11px}
-.game-actions{margin-top:var(--space-3);min-height:40px;gap:8px}
+.game-actions{margin-top:var(--space-3);min-height:40px;gap:8px;padding:var(--space-3) 0}
 .game-actions .button--text{font-size:11px}
 .expert-hint-buttons{gap:8px}
 .hint-cost{font-size:10px}
