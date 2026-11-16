@@ -2,76 +2,1977 @@
   {
     "name": "Portugal",
     "region": "Europe",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
+    "set": "World flags",
+    "coordinates": [
+      39.4,
+      -8.2
+    ],
+    "palette": [
+      {
+        "color": "#060",
+        "percent": 40
+      },
+      {
+        "color": "#d00",
+        "percent": 60
+      }
+    ]
   },
   {
     "name": "Kenya",
     "region": "Africa",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg",
+    "set": "World flags",
+    "coordinates": [
+      -0.02,
+      37.9
+    ],
+    "palette": [
+      {
+        "color": "#000",
+        "percent": 30
+      },
+      {
+        "color": "#c00",
+        "percent": 30
+      },
+      {
+        "color": "#060",
+        "percent": 30
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
   },
   {
     "name": "Sri Lanka",
     "region": "Asia",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg",
+    "set": "World flags",
+    "coordinates": [
+      7.9,
+      80.7
+    ],
+    "palette": [
+      {
+        "color": "#6b1623",
+        "percent": 60
+      },
+      {
+        "color": "#eb7f00",
+        "percent": 10
+      },
+      {
+        "color": "#007a33",
+        "percent": 10
+      },
+      {
+        "color": "#ffb81c",
+        "percent": 20
+      }
+    ]
   },
   {
     "name": "Nepal",
     "region": "Asia",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg"
-  },
-  {
-    "name": "Bangladesh",
-    "region": "Asia",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"
-  },
-  {
-    "name": "Colombia",
-    "region": "South America",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg",
+    "set": "World flags",
+    "coordinates": [
+      28.4,
+      84.1
+    ],
+    "palette": [
+      {
+        "color": "#dc143c",
+        "percent": 70
+      },
+      {
+        "color": "#003893",
+        "percent": 20
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
   },
   {
     "name": "Iceland",
     "region": "Europe",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg",
+    "set": "World flags",
+    "coordinates": [
+      64.9,
+      -19.0
+    ],
+    "palette": [
+      {
+        "color": "#02529c",
+        "percent": 60
+      },
+      {
+        "color": "#fff",
+        "percent": 25
+      },
+      {
+        "color": "#dc1e35",
+        "percent": 15
+      }
+    ]
   },
   {
     "name": "Croatia",
     "region": "Europe",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+    "set": "World flags",
+    "coordinates": [
+      45.1,
+      15.2
+    ],
+    "palette": [
+      {
+        "color": "#f00",
+        "percent": 32
+      },
+      {
+        "color": "#fff",
+        "percent": 36
+      },
+      {
+        "color": "#171796",
+        "percent": 32
+      }
+    ]
   },
   {
     "name": "Ghana",
     "region": "Africa",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
+    "set": "World flags",
+    "coordinates": [
+      7.9,
+      -1.0
+    ],
+    "palette": [
+      {
+        "color": "#ce1126",
+        "percent": 32
+      },
+      {
+        "color": "#fcd116",
+        "percent": 33
+      },
+      {
+        "color": "#006b3f",
+        "percent": 32
+      },
+      {
+        "color": "#000",
+        "percent": 3
+      }
+    ]
   },
   {
     "name": "Mongolia",
     "region": "Asia",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg",
+    "set": "World flags",
+    "coordinates": [
+      46.9,
+      103.8
+    ],
+    "palette": [
+      {
+        "color": "#c4272f",
+        "percent": 65
+      },
+      {
+        "color": "#015197",
+        "percent": 33
+      },
+      {
+        "color": "#f9cf02",
+        "percent": 2
+      }
+    ]
   },
   {
     "name": "Cambodia",
     "region": "Asia",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg",
+    "set": "World flags",
+    "coordinates": [
+      12.6,
+      104.9
+    ],
+    "palette": [
+      {
+        "color": "#032ea1",
+        "percent": 50
+      },
+      {
+        "color": "#e00025",
+        "percent": 45
+      },
+      {
+        "color": "#fff",
+        "percent": 5
+      }
+    ]
   },
   {
     "name": "Uruguay",
     "region": "South America",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
+    "set": "World flags",
+    "coordinates": [
+      -32.5,
+      -55.8
+    ],
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 56
+      },
+      {
+        "color": "#0038a8",
+        "percent": 44
+      }
+    ]
   },
   {
     "name": "Lebanon",
     "region": "Asia",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg",
+    "set": "World flags",
+    "coordinates": [
+      33.9,
+      35.9
+    ],
+    "palette": [
+      {
+        "color": "#ed1c24",
+        "percent": 48
+      },
+      {
+        "color": "#fff",
+        "percent": 47
+      },
+      {
+        "color": "#00703c",
+        "percent": 5
+      }
+    ]
   },
   {
-    "name": "Ireland",
-    "region": "Europe",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg"
-  },
-  {
-    "name": "Côte d'Ivoire",
+    "name": "South Africa",
     "region": "Africa",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
+    "set": "World flags",
+    "coordinates": [
+      -30.6,
+      22.9
+    ],
+    "palette": [
+      {
+        "color": "#007a4d",
+        "percent": 20
+      },
+      {
+        "color": "#000",
+        "percent": 15
+      },
+      {
+        "color": "#ffb612",
+        "percent": 10
+      },
+      {
+        "color": "#fff",
+        "percent": 15
+      },
+      {
+        "color": "#de3831",
+        "percent": 20
+      },
+      {
+        "color": "#002395",
+        "percent": 20
+      }
+    ]
+  },
+  {
+    "name": "Bermuda",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bermuda.svg",
+    "set": "World flags",
+    "coordinates": [
+      32.3,
+      -64.8
+    ],
+    "palette": [
+      {
+        "color": "#c8102e",
+        "percent": 70
+      },
+      {
+        "color": "#00247d",
+        "percent": 10
+      },
+      {
+        "color": "#fff",
+        "percent": 15
+      },
+      {
+        "color": "#ffd700",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Åland Islands",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Flag_of_%C3%85land.svg",
+    "set": "World flags",
+    "parentCountry": "Finland",
+    "coordinates": [
+      60.2,
+      20.0
+    ],
+    "palette": [
+      {
+        "color": "#0053a5",
+        "percent": 60
+      },
+      {
+        "color": "#ffd600",
+        "percent": 25
+      },
+      {
+        "color": "#d21034",
+        "percent": 15
+      }
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+    "set": "World flags",
+    "coordinates": [
+      -41.0,
+      174.0
+    ],
+    "palette": [
+      {
+        "color": "#00247d",
+        "percent": 65
+      },
+      {
+        "color": "#cc142b",
+        "percent": 20
+      },
+      {
+        "color": "#fff",
+        "percent": 15
+      }
+    ]
+  },
+  {
+    "name": "Maldives",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg",
+    "set": "World flags",
+    "coordinates": [
+      3.2,
+      73.2
+    ],
+    "palette": [
+      {
+        "color": "#d21034",
+        "percent": 25
+      },
+      {
+        "color": "#007e3a",
+        "percent": 65
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Oman",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg",
+    "set": "World flags",
+    "coordinates": [
+      21.5,
+      55.9
+    ],
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 40
+      },
+      {
+        "color": "#c8102e",
+        "percent": 40
+      },
+      {
+        "color": "#009639",
+        "percent": 20
+      }
+    ]
+  },
+  {
+    "name": "Liechtenstein",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Liechtenstein.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      47.16,
+      9.55
+    ],
+    "palette": [
+      {
+        "color": "#002b7f",
+        "percent": 48
+      },
+      {
+        "color": "#ce1126",
+        "percent": 48
+      },
+      {
+        "color": "#ffd83d",
+        "percent": 4
+      }
+    ]
+  },
+  {
+    "name": "San Marino",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      43.94,
+      12.45
+    ],
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 48
+      },
+      {
+        "color": "#5eb6e4",
+        "percent": 48
+      },
+      {
+        "color": "#b08c3e",
+        "percent": 4
+      }
+    ]
+  },
+  {
+    "name": "Andorra",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      42.51,
+      1.52
+    ],
+    "palette": [
+      {
+        "color": "#0018a8",
+        "percent": 33
+      },
+      {
+        "color": "#fedb00",
+        "percent": 34
+      },
+      {
+        "color": "#d50032",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Moldova",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      47.4,
+      28.4
+    ],
+    "palette": [
+      {
+        "color": "#003da5",
+        "percent": 32
+      },
+      {
+        "color": "#ffd200",
+        "percent": 36
+      },
+      {
+        "color": "#cc092f",
+        "percent": 32
+      }
+    ]
+  },
+  {
+    "name": "Comoros",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      -11.7,
+      43.3
+    ],
+    "palette": [
+      {
+        "color": "#fcd116",
+        "percent": 20
+      },
+      {
+        "color": "#fff",
+        "percent": 20
+      },
+      {
+        "color": "#cc092f",
+        "percent": 20
+      },
+      {
+        "color": "#3a75c4",
+        "percent": 20
+      },
+      {
+        "color": "#339e35",
+        "percent": 20
+      }
+    ]
+  },
+  {
+    "name": "Eswatini",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Eswatini.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      -26.5,
+      31.5
+    ],
+    "palette": [
+      {
+        "color": "#3a0062",
+        "percent": 40
+      },
+      {
+        "color": "#fece00",
+        "percent": 20
+      },
+      {
+        "color": "#b10c0c",
+        "percent": 30
+      },
+      {
+        "color": "#000",
+        "percent": 5
+      },
+      {
+        "color": "#fff",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Lesotho",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      -29.6,
+      28.2
+    ],
+    "palette": [
+      {
+        "color": "#00209f",
+        "percent": 25
+      },
+      {
+        "color": "#fff",
+        "percent": 48
+      },
+      {
+        "color": "#009543",
+        "percent": 25
+      },
+      {
+        "color": "#000",
+        "percent": 2
+      }
+    ]
+  },
+  {
+    "name": "Seychelles",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Seychelles.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      -4.67,
+      55.49
+    ],
+    "palette": [
+      {
+        "color": "#003f87",
+        "percent": 20
+      },
+      {
+        "color": "#fcd856",
+        "percent": 20
+      },
+      {
+        "color": "#d62828",
+        "percent": 20
+      },
+      {
+        "color": "#fff",
+        "percent": 20
+      },
+      {
+        "color": "#007a3d",
+        "percent": 20
+      }
+    ]
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "region": "Caribbean",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      17.36,
+      -62.78
+    ],
+    "palette": [
+      {
+        "color": "#009739",
+        "percent": 35
+      },
+      {
+        "color": "#ce1126",
+        "percent": 35
+      },
+      {
+        "color": "#fcd116",
+        "percent": 15
+      },
+      {
+        "color": "#000",
+        "percent": 13
+      },
+      {
+        "color": "#fff",
+        "percent": 2
+      }
+    ]
+  },
+  {
+    "name": "Saint Lucia",
+    "region": "Caribbean",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Saint_Lucia.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      13.91,
+      -60.98
+    ],
+    "palette": [
+      {
+        "color": "#66c2e8",
+        "percent": 70
+      },
+      {
+        "color": "#000",
+        "percent": 15
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      },
+      {
+        "color": "#ffd100",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Bhutan",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      27.5,
+      90.4
+    ],
+    "palette": [
+      {
+        "color": "#ffcc33",
+        "percent": 45
+      },
+      {
+        "color": "#ff4e12",
+        "percent": 45
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Brunei",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Brunei.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      4.54,
+      114.73
+    ],
+    "palette": [
+      {
+        "color": "#ffcc00",
+        "percent": 40
+      },
+      {
+        "color": "#000",
+        "percent": 20
+      },
+      {
+        "color": "#fff",
+        "percent": 20
+      },
+      {
+        "color": "#c8102e",
+        "percent": 15
+      },
+      {
+        "color": "#f9cf02",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Kyrgyzstan",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      41.2,
+      74.8
+    ],
+    "palette": [
+      {
+        "color": "#e8112d",
+        "percent": 80
+      },
+      {
+        "color": "#ffef00",
+        "percent": 20
+      }
+    ]
+  },
+  {
+    "name": "Nauru",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      -0.52,
+      166.93
+    ],
+    "palette": [
+      {
+        "color": "#002b7f",
+        "percent": 85
+      },
+      {
+        "color": "#ffc61e",
+        "percent": 10
+      },
+      {
+        "color": "#fff",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Kiribati",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg",
+    "set": "Rare countries",
+    "coordinates": [
+      1.87,
+      -157.4
+    ],
+    "palette": [
+      {
+        "color": "#ce1126",
+        "percent": 45
+      },
+      {
+        "color": "#ffd100",
+        "percent": 10
+      },
+      {
+        "color": "#003f87",
+        "percent": 35
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Faroe Islands",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Denmark",
+    "coordinates": [
+      62.0,
+      -6.8
+    ],
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 60
+      },
+      {
+        "color": "#0065bd",
+        "percent": 25
+      },
+      {
+        "color": "#ed2939",
+        "percent": 15
+      }
+    ]
+  },
+  {
+    "name": "Åland Islands",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Flag_of_%C3%85land.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Finland",
+    "coordinates": [
+      60.2,
+      20.0
+    ],
+    "palette": [
+      {
+        "color": "#0053a5",
+        "percent": 60
+      },
+      {
+        "color": "#ffd600",
+        "percent": 25
+      },
+      {
+        "color": "#d21034",
+        "percent": 15
+      }
+    ]
+  },
+  {
+    "name": "Isle of Man",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Flag_of_the_Isle_of_Mann.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Crown Dependency",
+    "coordinates": [
+      54.24,
+      -4.55
+    ],
+    "palette": [
+      {
+        "color": "#c8102e",
+        "percent": 85
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      },
+      {
+        "color": "#ffd700",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Shetland",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Shetland.svg",
+    "set": "Territories and islands",
+    "parentCountry": "United Kingdom",
+    "coordinates": [
+      60.32,
+      -1.25
+    ],
+    "palette": [
+      {
+        "color": "#005eb8",
+        "percent": 65
+      },
+      {
+        "color": "#fff",
+        "percent": 35
+      }
+    ]
+  },
+  {
+    "name": "Sardinia",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Sardinia.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Italy",
+    "coordinates": [
+      40.1,
+      9.0
+    ],
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 65
+      },
+      {
+        "color": "#c8102e",
+        "percent": 20
+      },
+      {
+        "color": "#000",
+        "percent": 15
+      }
+    ]
+  },
+  {
+    "name": "Zanzibar",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Zanzibar.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Tanzania",
+    "coordinates": [
+      -6.16,
+      39.2
+    ],
+    "palette": [
+      {
+        "color": "#005baa",
+        "percent": 30
+      },
+      {
+        "color": "#000",
+        "percent": 30
+      },
+      {
+        "color": "#006b3f",
+        "percent": 30
+      },
+      {
+        "color": "#ffd500",
+        "percent": 8
+      },
+      {
+        "color": "#fff",
+        "percent": 2
+      }
+    ]
+  },
+  {
+    "name": "Anjouan",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Flag_of_Anjouan_%28official%29.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Comoros",
+    "coordinates": [
+      -12.2,
+      44.43
+    ],
+    "palette": [
+      {
+        "color": "#009739",
+        "percent": 75
+      },
+      {
+        "color": "#fff",
+        "percent": 15
+      },
+      {
+        "color": "#fedd00",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Tristan da Cunha",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Tristan_da_Cunha.svg",
+    "set": "Territories and islands",
+    "parentCountry": "United Kingdom",
+    "coordinates": [
+      -37.1,
+      -12.28
+    ],
+    "palette": [
+      {
+        "color": "#00247d",
+        "percent": 70
+      },
+      {
+        "color": "#c8102e",
+        "percent": 10
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      },
+      {
+        "color": "#ffd700",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Greenland",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_Greenland.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Denmark",
+    "coordinates": [
+      72,
+      -40
+    ],
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#c8102e",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Bonaire",
+    "region": "Caribbean",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Flag_of_Bonaire.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Caribbean Netherlands",
+    "coordinates": [
+      12.18,
+      -68.25
+    ],
+    "palette": [
+      {
+        "color": "#002b7f",
+        "percent": 35
+      },
+      {
+        "color": "#ffd200",
+        "percent": 35
+      },
+      {
+        "color": "#ce1126",
+        "percent": 20
+      },
+      {
+        "color": "#fff",
+        "percent": 5
+      },
+      {
+        "color": "#000",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Saba",
+    "region": "Caribbean",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Saba.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Caribbean Netherlands",
+    "coordinates": [
+      17.63,
+      -63.24
+    ],
+    "palette": [
+      {
+        "color": "#002b7f",
+        "percent": 60
+      },
+      {
+        "color": "#ce1126",
+        "percent": 15
+      },
+      {
+        "color": "#fff",
+        "percent": 20
+      },
+      {
+        "color": "#ffd200",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Niue",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Niue.svg",
+    "set": "Territories and islands",
+    "parentCountry": "New Zealand (free association)",
+    "coordinates": [
+      -19.05,
+      -169.87
+    ],
+    "palette": [
+      {
+        "color": "#ffd500",
+        "percent": 80
+      },
+      {
+        "color": "#00247d",
+        "percent": 10
+      },
+      {
+        "color": "#c8102e",
+        "percent": 7
+      },
+      {
+        "color": "#fff",
+        "percent": 3
+      }
+    ]
+  },
+  {
+    "name": "Tokelau",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_of_Tokelau.svg",
+    "set": "Territories and islands",
+    "parentCountry": "New Zealand",
+    "coordinates": [
+      -9.2,
+      -171.8
+    ],
+    "palette": [
+      {
+        "color": "#ffd500",
+        "percent": 85
+      },
+      {
+        "color": "#003f87",
+        "percent": 10
+      },
+      {
+        "color": "#006b3f",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "French Polynesia",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_French_Polynesia.svg",
+    "set": "Territories and islands",
+    "parentCountry": "France",
+    "coordinates": [
+      -17.65,
+      -149.43
+    ],
+    "palette": [
+      {
+        "color": "#c8102e",
+        "percent": 70
+      },
+      {
+        "color": "#fff",
+        "percent": 25
+      },
+      {
+        "color": "#ffcc00",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Bougainville",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_Bougainville.svg",
+    "set": "Territories and islands",
+    "parentCountry": "Papua New Guinea",
+    "coordinates": [
+      -6.2,
+      155.2
+    ],
+    "palette": [
+      {
+        "color": "#002b7f",
+        "percent": 55
+      },
+      {
+        "color": "#ffd500",
+        "percent": 20
+      },
+      {
+        "color": "#007a3d",
+        "percent": 15
+      },
+      {
+        "color": "#000",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "France",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
+    "set": "World flags",
+    "coordinates": [
+      46.6,
+      2.2
+    ],
+    "palette": [
+      {
+        "color": "#002395",
+        "percent": 34
+      },
+      {
+        "color": "#ffffff",
+        "percent": 33
+      },
+      {
+        "color": "#ed2939",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Germany",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
+    "set": "World flags",
+    "coordinates": [
+      51.2,
+      10.4
+    ],
+    "palette": [
+      {
+        "color": "#000000",
+        "percent": 33
+      },
+      {
+        "color": "#dd0000",
+        "percent": 33
+      },
+      {
+        "color": "#ffce00",
+        "percent": 34
+      }
+    ]
+  },
+  {
+    "name": "Italy",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+    "set": "World flags",
+    "coordinates": [
+      42.8,
+      12.8
+    ],
+    "palette": [
+      {
+        "color": "#009246",
+        "percent": 33
+      },
+      {
+        "color": "#ffffff",
+        "percent": 34
+      },
+      {
+        "color": "#ce2b37",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Spain",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
+    "set": "World flags",
+    "coordinates": [
+      40.4,
+      -3.7
+    ],
+    "palette": [
+      {
+        "color": "#aa151b",
+        "percent": 50
+      },
+      {
+        "color": "#f1bf00",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Japan",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
+    "set": "World flags",
+    "coordinates": [
+      36.2,
+      138.3
+    ],
+    "palette": [
+      {
+        "color": "#ffffff",
+        "percent": 80
+      },
+      {
+        "color": "#bc002d",
+        "percent": 20
+      }
+    ]
+  },
+  {
+    "name": "China",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+    "set": "World flags",
+    "coordinates": [
+      35.9,
+      104.2
+    ],
+    "palette": [
+      {
+        "color": "#de2910",
+        "percent": 90
+      },
+      {
+        "color": "#ffde00",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "India",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg",
+    "set": "World flags",
+    "coordinates": [
+      20.6,
+      79.0
+    ],
+    "palette": [
+      {
+        "color": "#ff9933",
+        "percent": 33
+      },
+      {
+        "color": "#ffffff",
+        "percent": 34
+      },
+      {
+        "color": "#138808",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "South Korea",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+    "set": "World flags",
+    "coordinates": [
+      35.9,
+      127.8
+    ],
+    "palette": [
+      {
+        "color": "#ffffff",
+        "percent": 80
+      },
+      {
+        "color": "#cd2e3a",
+        "percent": 12
+      },
+      {
+        "color": "#0047a0",
+        "percent": 8
+      }
+    ]
+  },
+  {
+    "name": "Brazil",
+    "region": "South America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
+    "set": "World flags",
+    "coordinates": [
+      -14.2,
+      -51.9
+    ],
+    "palette": [
+      {
+        "color": "#009639",
+        "percent": 65
+      },
+      {
+        "color": "#fedd00",
+        "percent": 25
+      },
+      {
+        "color": "#002776",
+        "percent": 8
+      },
+      {
+        "color": "#ffffff",
+        "percent": 2
+      }
+    ]
+  },
+  {
+    "name": "Argentina",
+    "region": "South America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+    "set": "World flags",
+    "coordinates": [
+      -38.4,
+      -63.6
+    ],
+    "palette": [
+      {
+        "color": "#74acdf",
+        "percent": 66
+      },
+      {
+        "color": "#ffffff",
+        "percent": 34
+      }
+    ]
+  },
+  {
+    "name": "Mexico",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
+    "set": "World flags",
+    "coordinates": [
+      23.6,
+      -102.5
+    ],
+    "palette": [
+      {
+        "color": "#006341",
+        "percent": 33
+      },
+      {
+        "color": "#ffffff",
+        "percent": 34
+      },
+      {
+        "color": "#ce1126",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Canada",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+    "set": "World flags",
+    "coordinates": [
+      56.1,
+      -106.3
+    ],
+    "palette": [
+      {
+        "color": "#ff0000",
+        "percent": 50
+      },
+      {
+        "color": "#ffffff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Egypt",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
+    "set": "World flags",
+    "coordinates": [
+      26.8,
+      30.8
+    ],
+    "palette": [
+      {
+        "color": "#ce1126",
+        "percent": 33
+      },
+      {
+        "color": "#ffffff",
+        "percent": 34
+      },
+      {
+        "color": "#000000",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Nigeria",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg",
+    "set": "World flags",
+    "coordinates": [
+      9.1,
+      8.7
+    ],
+    "palette": [
+      {
+        "color": "#008751",
+        "percent": 66
+      },
+      {
+        "color": "#ffffff",
+        "percent": 34
+      }
+    ]
+  },
+  {
+    "name": "Morocco",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
+    "set": "World flags",
+    "coordinates": [
+      31.8,
+      -7.1
+    ],
+    "palette": [
+      {
+        "color": "#c1272d",
+        "percent": 95
+      },
+      {
+        "color": "#006233",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Australia",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia_%28converted%29.svg",
+    "set": "World flags",
+    "coordinates": [
+      -25.3,
+      133.8
+    ],
+    "palette": [
+      {
+        "color": "#00008b",
+        "percent": 80
+      },
+      {
+        "color": "#ffffff",
+        "percent": 15
+      },
+      {
+        "color": "#ff0000",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Fiji",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Fiji.svg",
+    "set": "World flags",
+    "coordinates": [
+      -17.7,
+      178.1
+    ],
+    "palette": [
+      {
+        "color": "#68bfe5",
+        "percent": 70
+      },
+      {
+        "color": "#00247d",
+        "percent": 15
+      },
+      {
+        "color": "#ffffff",
+        "percent": 10
+      },
+      {
+        "color": "#ce1126",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Norway",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+    "set": "World flags",
+    "coordinates": [
+      60.5,
+      8.5
+    ],
+    "palette": [
+      {
+        "color": "#ba0c2f",
+        "percent": 70
+      },
+      {
+        "color": "#ffffff",
+        "percent": 20
+      },
+      {
+        "color": "#00205b",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Sweden",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg",
+    "set": "World flags",
+    "coordinates": [
+      60.1,
+      18.6
+    ],
+    "palette": [
+      {
+        "color": "#006aa7",
+        "percent": 85
+      },
+      {
+        "color": "#fecc02",
+        "percent": 15
+      }
+    ]
+  },
+  {
+    "name": "Turkey",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+    "set": "World flags",
+    "coordinates": [
+      38.9,
+      35.2
+    ],
+    "palette": [
+      {
+        "color": "#e30a17",
+        "percent": 95
+      },
+      {
+        "color": "#ffffff",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Texas",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg",
+    "set": "US state flags",
+    "coordinates": [
+      31.0,
+      -100.0
+    ],
+    "palette": [
+      {
+        "color": "#002868",
+        "percent": 20
+      },
+      {
+        "color": "#ffffff",
+        "percent": 50
+      },
+      {
+        "color": "#bf0a30",
+        "percent": 30
+      }
+    ]
+  },
+  {
+    "name": "California",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg",
+    "set": "US state flags",
+    "coordinates": [
+      36.8,
+      -119.4
+    ],
+    "palette": [
+      {
+        "color": "#ffffff",
+        "percent": 85
+      },
+      {
+        "color": "#bf0a30",
+        "percent": 10
+      },
+      {
+        "color": "#000000",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Alaska",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg",
+    "set": "US state flags",
+    "coordinates": [
+      64.2,
+      -149.5
+    ],
+    "palette": [
+      {
+        "color": "#023e7d",
+        "percent": 92
+      },
+      {
+        "color": "#ffd700",
+        "percent": 8
+      }
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg",
+    "set": "US state flags",
+    "coordinates": [
+      20.8,
+      -156.3
+    ],
+    "palette": [
+      {
+        "color": "#cc0000",
+        "percent": 35
+      },
+      {
+        "color": "#ffffff",
+        "percent": 35
+      },
+      {
+        "color": "#00247d",
+        "percent": 30
+      }
+    ]
+  },
+  {
+    "name": "New Mexico",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_New_Mexico.svg",
+    "set": "US state flags",
+    "coordinates": [
+      34.5,
+      -106.0
+    ],
+    "palette": [
+      {
+        "color": "#ffcf01",
+        "percent": 90
+      },
+      {
+        "color": "#ba0c2f",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Arizona",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arizona.svg",
+    "set": "US state flags",
+    "coordinates": [
+      34.0,
+      -111.5
+    ],
+    "palette": [
+      {
+        "color": "#ffcc01",
+        "percent": 25
+      },
+      {
+        "color": "#a7282e",
+        "percent": 25
+      },
+      {
+        "color": "#002868",
+        "percent": 45
+      },
+      {
+        "color": "#b87333",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Maryland",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Maryland.svg",
+    "set": "US state flags",
+    "coordinates": [
+      39.0,
+      -76.6
+    ],
+    "palette": [
+      {
+        "color": "#000000",
+        "percent": 25
+      },
+      {
+        "color": "#ffd200",
+        "percent": 25
+      },
+      {
+        "color": "#e03c31",
+        "percent": 25
+      },
+      {
+        "color": "#ffffff",
+        "percent": 25
+      }
+    ]
+  },
+  {
+    "name": "South Carolina",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_South_Carolina.svg",
+    "set": "US state flags",
+    "coordinates": [
+      33.8,
+      -81.0
+    ],
+    "palette": [
+      {
+        "color": "#223a5e",
+        "percent": 90
+      },
+      {
+        "color": "#ffffff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Colorado",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Flag_of_Colorado.svg",
+    "set": "US state flags",
+    "coordinates": [
+      39.0,
+      -105.5
+    ],
+    "palette": [
+      {
+        "color": "#003893",
+        "percent": 70
+      },
+      {
+        "color": "#ffffff",
+        "percent": 20
+      },
+      {
+        "color": "#c8102e",
+        "percent": 5
+      },
+      {
+        "color": "#ffd200",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Florida",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Florida.svg",
+    "set": "US state flags",
+    "coordinates": [
+      27.7,
+      -81.5
+    ],
+    "palette": [
+      {
+        "color": "#ffffff",
+        "percent": 75
+      },
+      {
+        "color": "#b22234",
+        "percent": 25
+      }
+    ]
+  },
+  {
+    "name": "Tennessee",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Tennessee.svg",
+    "set": "US state flags",
+    "coordinates": [
+      35.7,
+      -86.6
+    ],
+    "palette": [
+      {
+        "color": "#cc0000",
+        "percent": 85
+      },
+      {
+        "color": "#002868",
+        "percent": 10
+      },
+      {
+        "color": "#ffffff",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Ohio",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Ohio.svg",
+    "set": "US state flags",
+    "coordinates": [
+      40.0,
+      -82.9
+    ],
+    "palette": [
+      {
+        "color": "#002868",
+        "percent": 35
+      },
+      {
+        "color": "#ffffff",
+        "percent": 35
+      },
+      {
+        "color": "#cc0000",
+        "percent": 25
+      },
+      {
+        "color": "#ffd200",
+        "percent": 5
+      }
+    ]
   }
 ]
