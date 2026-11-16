@@ -1,0 +1,2 @@
+import './Header.css';
+export function Header(){return <header className="header"><a className="brand" href="/" aria-label="Pixel Challenge home"><span className="brand-mark" aria-hidden="true"><i/><i/><i/><i/></span><span>pixel<span className="brand-light">challenge</span><b>.</b></span></a><nav aria-label="Main navigation"><span className="nav-active">The challenge</span><span className="nav-divider"/><span className="nav-note">A little game for curious minds <span>✳</span></span></nav></header>}

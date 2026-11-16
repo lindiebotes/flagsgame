@@ -1,0 +1,2 @@
+@import './styles/tokens.css';
+:root{font-family:var(--font-family-body);color:var(--color-text);background:var(--color-background);font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-width:320px}button{font:inherit}button:focus-visible{outline:3px solid #91bda2;outline-offset:3px}button:disabled{cursor:not-allowed}::selection{background:#d7e9d9}
