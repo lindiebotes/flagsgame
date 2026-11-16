@@ -10,7 +10,7 @@
 .button--outline:hover:not(:disabled){background:var(--color-selected);border-color:var(--color-action-text);color:var(--color-action-text)}
 .button--outline:disabled{opacity:.6;cursor:default}
 @media(max-width:650px){.button--outline{font-size:calc(var(--font-size-base) * 0.8125);padding:9px 16px}}
-@media(max-width:480px){.button--primary{padding:10px 16px;font-size:calc(var(--font-size-base) * 0.8125)}.button--outline{padding:7px 12px;font-size:calc(var(--font-size-base) * 0.75)}}
+@media(max-width:480px){.button{flex-grow:1}.button--primary{padding:10px 16px;font-size:calc(var(--font-size-base) * 0.8125)}.button--outline{padding:7px 12px;font-size:calc(var(--font-size-base) * 0.75)}}
 .button--secondary{background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-border-strong);border-radius:var(--radius-pill);font:var(--text-button);display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:17px 25px}
 .button--secondary:hover:not(:disabled){background:var(--color-selected)}
 .button--secondary:hover:not(:disabled) .button-arrow,.button--secondary:focus-visible .button-arrow{transform:translateX(3px)}

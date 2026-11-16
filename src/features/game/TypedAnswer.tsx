@@ -2,13 +2,14 @@ import {useState} from 'react';
 import {Button} from '../../components/ui/Button';
 import './TypedAnswer.css';
 
-type Props={disabled:boolean;onSubmit:(answer:string)=>void;suggestions?:string[]};
+type Props={disabled:boolean;onSubmit:(answer:string)=>void;suggestions?:string[];previousGuesses?:string[]};
 const normalize=(value:string)=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim().replace(/\s+/g,' ');
 
-export function TypedAnswer({disabled,onSubmit,suggestions=[]}:Props){
+export function TypedAnswer({disabled,onSubmit,suggestions=[],previousGuesses=[]}:Props){
   const [value,setValue]=useState('');
   const [open,setOpen]=useState(false);
   const [active,setActive]=useState(0);
+  const [error,setError]=useState('');
   const query=value.trim();
   const matches=(()=>{
     if(!query)return [];
@@ -21,12 +22,12 @@ export function TypedAnswer({disabled,onSubmit,suggestions=[]}:Props){
       .map(({name})=>name);
   })();
   const show=open&&!disabled&&query.length>0&&matches.length>0;
-  const pick=(name:string)=>{setValue(name);setOpen(false);setActive(0)};
-  return <form className="typed-answer" onSubmit={event=>{event.preventDefault();if(show&&matches[active]){pick(matches[active]);return}if(query&&!disabled)onSubmit(query)}}>
+  const pick=(name:string)=>{setValue(name);setOpen(false);setActive(0);setError('')};
+  return <form className="typed-answer" onSubmit={event=>{event.preventDefault();if(!query||disabled)return;if(previousGuesses.some(guess=>normalize(guess)===normalize(query))){setOpen(false);setError('Already guessed');return}if(show&&matches[active]){pick(matches[active]);return}onSubmit(query)}}>
     <div className="typed-answer-row">
       <div className="typed-answer-field">
-        <input id="flag-answer" aria-label="Type your answer" value={value} disabled={disabled} placeholder="Type your answer" autoComplete="off" role="combobox" aria-expanded={show} aria-controls="flag-suggestions" aria-autocomplete="list" aria-activedescendant={show?`flag-suggestion-${active}`:undefined}
-          onChange={event=>{setValue(event.target.value);setOpen(true);setActive(0)}}
+        <input id="flag-answer" aria-label="Type your answer" aria-invalid={Boolean(error)} aria-describedby={error?'flag-answer-error':undefined} value={value} disabled={disabled} placeholder="Type your answer" autoComplete="off" role="combobox" aria-expanded={show} aria-controls="flag-suggestions" aria-autocomplete="list" aria-activedescendant={show?`flag-suggestion-${active}`:undefined}
+          onChange={event=>{setValue(event.target.value);setOpen(true);setActive(0);setError('')}}
           onFocus={()=>{if(query)setOpen(true)}}
           onBlur={()=>{window.setTimeout(()=>setOpen(false),100)}}
           onKeyDown={event=>{
@@ -39,5 +40,6 @@ export function TypedAnswer({disabled,onSubmit,suggestions=[]}:Props){
       </div>
       <Button type="submit" disabled={disabled||!query}>Submit</Button>
     </div>
+    {error&&<p className="typed-answer-error" id="flag-answer-error" role="alert">{error}</p>}
   </form>;
 }

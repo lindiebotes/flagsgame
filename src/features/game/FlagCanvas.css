@@ -4,3 +4,4 @@
 .flag-art{width:min(100%,400px,calc(245px * var(--flag-ratio, 1.5)));max-height:none}.flag-frame canvas{width:100%;height:auto;max-height:none}.flag-original{object-fit:fill}@media(max-width:650px){.flag-art{width:min(100%,400px,calc(190px * var(--flag-ratio, 1.5)));max-height:none}}
 .flag-frame{width:min(100%,480px)}.flag-art{width:min(100%,480px,calc(300px * var(--flag-ratio, 1.5)))}@media(max-width:650px){.flag-art{width:min(100%,480px,calc(230px * var(--flag-ratio, 1.5)))}}
 @media(max-width:480px){.flag-frame{min-height:0}.flag-art{width:min(100%,calc(19vh * var(--flag-ratio, 1.5)))}}
+@media(min-width:851px){.flag-frame{min-height:0}.flag-art{width:min(100%,calc(25vh * var(--flag-ratio, 1.5)))}}
