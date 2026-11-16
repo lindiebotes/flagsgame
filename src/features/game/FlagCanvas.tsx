@@ -1,10 +1,11 @@
 import {useEffect,useRef,useState} from 'react';
+import {measureFlagColors,type FlagColor} from '../../lib/flagColors';
 import './FlagCanvas.css';
 
-type Props={url:string;columns:number;revealed?:boolean;onReady?:(ready:boolean)=>void};
+type Props={url:string;columns:number;revealed?:boolean;onReady?:(ready:boolean)=>void;onColors?:(colors:FlagColor[])=>void};
 const rasterUrl=(url:string)=>url.replace(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/)([0-9a-f]\/[0-9a-f]{2}\/)([^/]+\.svg)$/i,(_,base,path,name)=>base+'thumb/'+path+name+'/960px-'+name+'.png');
 
-export function FlagCanvas({url,columns,revealed=false,onReady}:Props){
+export function FlagCanvas({url,columns,revealed=false,onReady,onColors}:Props){
   const canvas=useRef<HTMLCanvasElement>(null);
   const [error,setError]=useState(false);
   const [retry,setRetry]=useState(0);
@@ -27,6 +28,7 @@ export function FlagCanvas({url,columns,revealed=false,onReady}:Props){
         if(!sourceContext)throw new Error('Canvas unavailable');
         sourceContext.drawImage(image,0,0,width,height);
         const pixels=sourceContext.getImageData(0,0,width,height).data;
+        if(onColors)onColors(measureFlagColors(pixels));
         const visible=canvas.current;
         visible.width=width;visible.height=height;
         visible.parentElement?.style.setProperty('--flag-ratio',String(width/height));

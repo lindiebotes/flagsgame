@@ -10,9 +10,9 @@ export function ColorSharePie({palette}:Props){
     return `${slice.color} ${start}deg ${angle}deg`;
   }).join(',');
   return <div className="color-share">
-    <div className="color-share-pie" style={{background:`conic-gradient(${stops})`}} role="img" aria-label="Pie chart of the flag's colour shares, largest first"/>
+    <div className="color-share-pie" style={{background:`conic-gradient(${stops})`}} role="img" aria-label="Approximate colour shares measured from the flag image, largest first"/>
     <ul className="color-share-legend">
-      {sorted.map(slice=><li key={slice.color}><span className="color-share-swatch" style={{background:slice.color}}/>{slice.percent}%</li>)}
+      {sorted.map(slice=><li key={slice.color}><span className="color-share-swatch" style={{background:slice.color}}/>≈{slice.percent}%</li>)}
     </ul>
   </div>;
 }

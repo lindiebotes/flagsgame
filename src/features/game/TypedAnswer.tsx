@@ -23,10 +23,9 @@ export function TypedAnswer({disabled,onSubmit,suggestions=[]}:Props){
   const show=open&&!disabled&&query.length>0&&matches.length>0;
   const pick=(name:string)=>{setValue(name);setOpen(false);setActive(0)};
   return <form className="typed-answer" onSubmit={event=>{event.preventDefault();if(show&&matches[active]){pick(matches[active]);return}if(query&&!disabled)onSubmit(query)}}>
-    <label className="typed-answer-label" htmlFor="flag-answer">Your answer</label>
     <div className="typed-answer-row">
       <div className="typed-answer-field">
-        <input id="flag-answer" value={value} disabled={disabled} placeholder="Type a country or territory" autoComplete="off" role="combobox" aria-expanded={show} aria-controls="flag-suggestions" aria-autocomplete="list" aria-activedescendant={show?`flag-suggestion-${active}`:undefined}
+        <input id="flag-answer" aria-label="Type your answer" value={value} disabled={disabled} placeholder="Type your answer" autoComplete="off" role="combobox" aria-expanded={show} aria-controls="flag-suggestions" aria-autocomplete="list" aria-activedescendant={show?`flag-suggestion-${active}`:undefined}
           onChange={event=>{setValue(event.target.value);setOpen(true);setActive(0)}}
           onFocus={()=>{if(query)setOpen(true)}}
           onBlur={()=>{window.setTimeout(()=>setOpen(false),100)}}
