@@ -1,0 +1,9 @@
+.answer-format{min-width:0;margin:var(--space-6) 0 0;padding:0;border:0}
+.answer-format legend{padding:0;font:400 var(--font-size-lg) var(--font-family-display);color:var(--color-text)}
+.answer-format-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-2);margin-top:var(--space-4)}
+.answer-format-option{display:flex;align-items:center;gap:var(--space-2);padding:var(--space-3);border:1px solid var(--color-border-subtle);background:var(--color-surface);color:var(--color-text);font:var(--text-label);cursor:pointer}
+.answer-format-option.is-selected{background:var(--color-selected);border-color:var(--color-border-strong);box-shadow:3px 3px 0 var(--color-border-subtle)}
+.answer-format-option input{flex:none;accent-color:var(--color-text);width:16px;height:16px}
+.answer-format-option input:focus-visible{outline:2px solid var(--color-text);outline-offset:3px}
+@media(max-width:480px){.answer-format{margin-top:var(--space-4)}.answer-format legend{font-size:23px}.answer-format-option{font-size:12px;padding:var(--space-2)}}
+@media(min-width:651px){.answer-format-option{font-size:var(--font-size-base)}}

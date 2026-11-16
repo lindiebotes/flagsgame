@@ -8,3 +8,4 @@
 @media(max-width:650px){.flag-set-name{font-size:18px}}
 @media(max-width:480px){.flag-set-option{padding:8px}.flag-set-name{font-size:12px}.flag-set-bonus{font-size:14px}}
 @media(min-width:651px){.flag-set-name{font-size:var(--font-size-base)}.flag-set-bonus{font-size:var(--font-size-sm)}}
+.flag-set-bonus{font-size:var(--font-size-points)}
