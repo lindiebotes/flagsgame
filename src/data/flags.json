@@ -1974,5 +1974,69 @@
         "percent": 5
       }
     ]
+  },
+  {
+    "name": "North Macedonia",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg",
+    "set": "World flags",
+    "coordinates": [
+      41.61,
+      21.75
+    ],
+    "palette": [
+      {
+        "color": "#d20000",
+        "percent": 70
+      },
+      {
+        "color": "#ffe600",
+        "percent": 30
+      }
+    ]
+  },
+  {
+    "name": "Palau",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg",
+    "set": "World flags",
+    "coordinates": [
+      7.51,
+      134.58
+    ],
+    "palette": [
+      {
+        "color": "#4aadd6",
+        "percent": 79
+      },
+      {
+        "color": "#ffde00",
+        "percent": 21
+      }
+    ]
+  },
+  {
+    "name": "Serbia",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
+    "set": "World flags",
+    "coordinates": [
+      44.02,
+      21.01
+    ],
+    "palette": [
+      {
+        "color": "#c6363c",
+        "percent": 34
+      },
+      {
+        "color": "#0c4076",
+        "percent": 33
+      },
+      {
+        "color": "#ffffff",
+        "percent": 33
+      }
+    ]
   }
 ]
