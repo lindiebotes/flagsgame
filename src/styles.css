@@ -1,3 +1,4 @@
 @import './styles/tokens.css';
-:root{font-family:var(--font-family-body);color:var(--color-text);background:#fff9eb;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-width:320px}button{font:inherit}button:focus-visible{outline:3px solid #91bda2;outline-offset:3px}button:disabled{cursor:not-allowed}::selection{background:#d7e9d9}
-button:focus-visible{outline-color:#829bfa}::selection{background:#c9d5ff}
+:root{color-scheme:only light}
+:root{font-family:var(--font-family-body);color:var(--color-text);background:var(--color-page-background);font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-width:320px}button{font:inherit}button:focus-visible{outline:3px solid var(--color-detail-91bda2);outline-offset:3px}button:disabled{cursor:not-allowed}::selection{background:var(--color-detail-d7e9d9)}
+button:focus-visible{outline-color:var(--color-detail-829bfa)}::selection{background:var(--color-detail-c9d5ff)}
