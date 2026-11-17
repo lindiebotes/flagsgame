@@ -2,4 +2,4 @@
 .level-preview{display:flex;align-items:center;justify-content:center;height:48px;min-height:0;overflow:hidden}
 .level-preview .pixel-preview{width:auto;height:100%;max-width:100%;max-height:100%;object-fit:contain}
 .level-label{font:var(--text-selection-label)}
-@media(max-width:599px){.level-option{gap:var(--space-1);padding:var(--space-2) var(--space-1)}.level-preview{height:24px}.level-label{font-size:calc(var(--font-size-base) * .875)}}
+@media(max-width:599px){.level-option{gap:var(--space-2);padding:var(--space-2) var(--space-1)}.level-preview{height:24px}.level-label{font-size:calc(var(--font-size-base) * .875)}}

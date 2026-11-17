@@ -50,7 +50,7 @@
   .setup{gap:var(--space-5);padding:var(--space-5)}
   .setup-heading{margin-bottom:var(--space-2)}
   .setup-levels,.game-page .setup-packs{gap:var(--space-3)}
-  .setup-levels .level-option{min-height:112px;gap:var(--space-2);padding:var(--space-2)}
+  .setup-levels .level-option{min-height:112px;gap:var(--space-3);padding:var(--space-2)}
   .setup-levels .level-preview{height:36px}
   .answer-format-option{min-height:46px;padding:var(--space-2)}
 }
