@@ -1,4 +1,6 @@
 .app-shell{min-height:100vh;background:var(--color-background);color:var(--color-text);font-family:var(--font-family-body)}
+.app-shell:has(.game-page--playing){height:100dvh;min-height:0;overflow:hidden;overscroll-behavior:none}
+html:has(.game-page--playing),body:has(.game-page--playing){height:100dvh;overflow:hidden;overscroll-behavior:none}
 .reduce-motion *, .reduce-motion *::before, .reduce-motion *::after{animation-duration:.01ms!important;animation-delay:0ms!important;transition-duration:0ms!important;scroll-behavior:auto!important}
 @media(prefers-reduced-motion:no-preference){
   ::view-transition-old(settings-control){animation:settings-icon-out 300ms ease both}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Geist+Pixel&display=swap');
-:root{--color-background:#fffdfa;--color-surface:#ffffff;--color-text:#35221d;--color-text-muted:#6c625e;--color-text-subtle:#969db0;--color-text-supporting:#807a76;--color-border-strong:#35221d;--color-border-subtle:#dedcda;--color-accent:#e6fb45;--color-accent-light:#cfd3f4;--color-selected:#f1f2fc;--color-score-background:#f4faad;--color-dark:#e6fb45;--color-warm:#f8f4e9;--color-wrong:#a45a50;--color-wrong-background:#fbe4e1;--color-wrong-key:#efb5ad;--color-correct:#3a7d4e;--font-family-body:'DM Sans',sans-serif;--font-family-display:'Geist Pixel',serif;--font-weight-regular:400;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--font-weight-heavy:800;--font-size-xs:1rem;--font-size-sm:0.938rem;--font-size-base:1rem;--font-size-lg:1.125rem;--font-size-xl:1.5rem;--font-size-2xl:2rem;--font-size-display:clamp(2.8rem,5.5vw,4.5rem);--line-height-tight:1.1;--line-height-normal:1.5;--line-height-relaxed:1.7;--letter-spacing-tight:-.045em;--letter-spacing-normal:0;--letter-spacing-wide:.14em;--text-display:var(--font-weight-bold) var(--font-size-display)/1.1 var(--font-family-display);--text-heading:var(--font-weight-bold) var(--font-size-xl)/1.2 var(--font-family-display);--text-body:var(--font-weight-regular) var(--font-size-base)/var(--line-height-normal) var(--font-family-body);--text-body-small:var(--font-weight-regular) var(--font-size-xs)/var(--line-height-normal) var(--font-family-body);--text-label:var(--font-weight-bold) var(--font-size-lg)/1.2 var(--font-family-body);--text-caption:var(--font-weight-bold) calc(var(--font-size-base) * .75)/1.2 var(--font-family-body);--text-button:var(--font-weight-semibold) var(--font-size-base)/1 var(--font-family-body);--space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.5rem;--space-6:2rem;--space-7:3rem;--space-8:4rem;--radius-sm:.5rem;--radius-md:1rem;--radius-xl:1.5rem;--radius-pill:999px;--shadow-sm:0 2px 8px rgba(34,57,43,.04);--shadow-lg:0 18px 50px rgba(30,52,125,.12)}
+:root{--color-background:#fcf9f4;--color-surface:#ffffff;--color-text:#35221d;--color-text-muted:#6c625e;--color-text-subtle:#969db0;--color-text-supporting:#807a76;--color-border-strong:#35221d;--color-border-subtle:#dedcda;--color-accent:#e6fb45;--color-accent-light:#cfd3f4;--color-selected:#f1f2fc;--color-score-background:#f4faad;--color-dark:#e6fb45;--color-warm:#f8f4e9;--color-wrong:#a45a50;--color-wrong-background:#fbe4e1;--color-wrong-key:#efb5ad;--color-correct:#3a7d4e;--font-family-body:'DM Sans',sans-serif;--font-family-display:'Geist Pixel',serif;--font-weight-regular:400;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--font-weight-heavy:800;--font-size-xs:1rem;--font-size-sm:0.938rem;--font-size-base:1rem;--font-size-lg:1.125rem;--font-size-xl:1.5rem;--font-size-2xl:2rem;--font-size-display:clamp(2.8rem,5.5vw,4.5rem);--line-height-tight:1.1;--line-height-normal:1.5;--line-height-relaxed:1.7;--letter-spacing-tight:-.045em;--letter-spacing-normal:0;--letter-spacing-wide:.14em;--text-display:var(--font-weight-bold) var(--font-size-display)/1.1 var(--font-family-display);--text-heading:var(--font-weight-bold) var(--font-size-xl)/1.2 var(--font-family-display);--text-body:var(--font-weight-regular) var(--font-size-base)/var(--line-height-normal) var(--font-family-body);--text-body-small:var(--font-weight-regular) var(--font-size-xs)/var(--line-height-normal) var(--font-family-body);--text-label:var(--font-weight-bold) var(--font-size-lg)/1.2 var(--font-family-body);--text-caption:var(--font-weight-bold) calc(var(--font-size-base) * .75)/1.2 var(--font-family-body);--text-button:var(--font-weight-semibold) var(--font-size-base)/1 var(--font-family-body);--space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.5rem;--space-6:2rem;--space-7:3rem;--space-8:4rem;--radius-sm:.5rem;--radius-md:1rem;--radius-xl:1.5rem;--radius-pill:999px;--shadow-sm:0 2px 8px rgba(34,57,43,.04);--shadow-lg:0 18px 50px rgba(30,52,125,.12)}
 
-:root{--color-page-background:#fff9eb;--color-action-text:#2455b6;--color-accent-hover:#d9f535}
+:root{--color-page-background:#fcf9f4;--color-action-text:#2455b6;--color-accent-hover:#d9f535}
 :root{--shadow-card:6px 6px 0 var(--color-border-subtle);--shadow-selection:3px 3px 0 var(--color-border-subtle)}
 
 :root{--font-size-points:calc(var(--font-size-base) * .6875)}
@@ -14,11 +14,14 @@
 /* Shared selection labels across difficulty, collections and answer format. */
 :root,.app-shell{--font-size-selection-label:var(--font-size-base);--text-selection-label:var(--font-weight-bold) var(--font-size-selection-label)/1.2 var(--font-family-body)}
 @media (min-width:481px) and (max-width:650px){:root,.app-shell{--font-size-selection-label:calc(var(--font-size-base) * 1.125)}}
-@media (max-width:480px){:root,.app-shell{--font-size-selection-label:calc(var(--font-size-base) * .75)}}
+@media (max-width:480px){:root,.app-shell{--font-size-selection-label:var(--font-size-base)}}
+@media (min-width:651px) and (max-width:850px){:root,.app-shell{--font-size-selection-label:calc(var(--font-size-base) * .9375);--text-selection-label:var(--font-weight-semibold) var(--font-size-selection-label)/1.2 var(--font-family-body)}}
 
 /* Named styles for recurring interface typography. */
 :root,.app-shell{
   --text-supporting-caption:var(--font-weight-regular) var(--font-size-points)/var(--line-height-normal) var(--font-family-body);
+  --font-size-page-heading:clamp(calc(var(--font-size-base) * 2),4vw,calc(var(--font-size-base) * 2.75));
+  --text-page-heading:var(--font-weight-regular) var(--font-size-page-heading)/1.08 var(--font-family-display);
   --font-size-section-heading:var(--font-size-lg);
   --text-section-heading:var(--font-weight-regular) var(--font-size-section-heading)/1.2 var(--font-family-display);
   --font-size-action:var(--font-size-base);
@@ -27,6 +30,33 @@
   --text-action-outline:var(--font-weight-semibold) var(--font-size-action-outline)/normal var(--font-family-body);
 }
 @media(max-width:650px){:root,.app-shell{--font-size-action:calc(var(--font-size-base) * 1.125);--font-size-action-outline:calc(var(--font-size-base) * .8125)}}
-@media(max-width:480px){:root,.app-shell{--font-size-page-heading:calc(var(--font-size-base) * 1.75);--font-size-section-heading:calc(var(--font-size-base) * 1.25);--font-size-action:calc(var(--font-size-base) * .8125);--font-size-action-outline:calc(var(--font-size-base) * .75)}}
+@media(max-width:480px){:root,.app-shell{--font-size-page-heading:calc(var(--font-size-base) * 1.75);--font-size-section-heading:calc(var(--font-size-base) * 1.25);--font-size-action:var(--font-size-base);--font-size-action-outline:calc(var(--font-size-base) * .75)}}
 
-:root{--color-detail-000:#000;--color-detail-15253e:#15253e;--color-detail-173dbb:#173dbb;--color-detail-1a1a1a:#1a1a1a;--color-detail-226bff:#226bff;--color-detail-2847df:#2847df;--color-detail-536174:#536174;--color-detail-5d2bc0:#5d2bc0;--color-detail-607e66:#607e66;--color-detail-647f8e:#647f8e;--color-detail-648e70:#648e70;--color-detail-6c7caa:#6c7caa;--color-detail-71977a:#71977a;--color-detail-72977a:#72977a;--color-detail-73937a:#73937a;--color-detail-778b7a:#778b7a;--color-detail-7c9c81:#7c9c81;--color-detail-7da587:#7da587;--color-detail-829bfa:#829bfa;--color-detail-84a98a:#84a98a;--color-detail-87958a:#87958a;--color-detail-89aa8d:#89aa8d;--color-detail-8a8a8a:#8a8a8a;--color-detail-8b9ac4:#8b9ac4;--color-detail-91ad92:#91ad92;--color-detail-91bda2:#91bda2;--color-detail-929bb5:#929bb5;--color-detail-97a798:#97a798;--color-detail-9aa99b:#9aa99b;--color-detail-9ba89b:#9ba89b;--color-detail-a0aba1:#a0aba1;--color-detail-a2ada3:#a2ada3;--color-detail-a4b0a5:#a4b0a5;--color-detail-a5afa6:#a5afa6;--color-detail-a6b2a8:#a6b2a8;--color-detail-a8b3a8:#a8b3a8;--color-detail-abb8aa:#abb8aa;--color-detail-aebefc:#aebefc;--color-detail-b0bab0:#b0bab0;--color-detail-bed0bd:#bed0bd;--color-detail-c9d5ff:#c9d5ff;--color-detail-d4dcf3:#d4dcf3;--color-detail-d7e9d9:#d7e9d9;--color-detail-dce5dc:#dce5dc;--color-detail-e4e4e4:#e4e4e4;--color-detail-e7f0fd:#e7f0fd;--color-detail-e9f2ff:#e9f2ff;--color-detail-eef2ff:#eef2ff;--color-detail-f0f2fa:#f0f2fa;--color-detail-f0f6ef:#f0f6ef;--color-detail-f0f7ef:#f0f7ef;--color-detail-f4f6f3:#f4f6f3;--color-detail-f7f8fd:#f7f8fd;--color-detail-f8fbf7:#f8fbf7;--color-detail-fbfcf9:#fbfcf9;--color-detail-fff7f5:#fff7f5;}
+:root{--color-detail-000:#000;--color-detail-15253e:#15253e;--color-detail-1a1a1a:#1a1a1a;--color-detail-226bff:#226bff;--color-detail-536174:#536174;--color-detail-607e66:#607e66;--color-detail-6c7caa:#6c7caa;--color-detail-71977a:#71977a;--color-detail-72977a:#72977a;--color-detail-73937a:#73937a;--color-detail-778b7a:#778b7a;--color-detail-7c9c81:#7c9c81;--color-detail-829bfa:#829bfa;--color-detail-84a98a:#84a98a;--color-detail-87958a:#87958a;--color-detail-89aa8d:#89aa8d;--color-detail-8a8a8a:#8a8a8a;--color-detail-8b9ac4:#8b9ac4;--color-detail-91ad92:#91ad92;--color-detail-91bda2:#91bda2;--color-detail-97a798:#97a798;--color-detail-9aa99b:#9aa99b;--color-detail-9ba89b:#9ba89b;--color-detail-a0aba1:#a0aba1;--color-detail-a2ada3:#a2ada3;--color-detail-a4b0a5:#a4b0a5;--color-detail-a6b2a8:#a6b2a8;--color-detail-a8b3a8:#a8b3a8;--color-detail-abb8aa:#abb8aa;--color-detail-aebefc:#aebefc;--color-detail-b0bab0:#b0bab0;--color-detail-bed0bd:#bed0bd;--color-detail-c9d5ff:#c9d5ff;--color-detail-e4e4e4:#e4e4e4;--color-detail-e9f2ff:#e9f2ff;--color-detail-eef2ff:#eef2ff;--color-detail-f0f2fa:#f0f2fa;--color-detail-f0f6ef:#f0f6ef;--color-detail-f0f7ef:#f0f7ef;--color-detail-f4f6f3:#f4f6f3;--color-detail-f7f8fd:#f7f8fd;--color-detail-f8fbf7:#f8fbf7;--color-detail-fbfcf9:#fbfcf9;--color-detail-fff7f5:#fff7f5;}
+
+/* Small count text next to a flag pack name. */
+:root,.app-shell{--font-size-count:.8125rem;--text-count:var(--font-weight-regular) var(--font-size-count)/1.3 var(--font-family-body)}
+
+/* Gameplay screen */
+:root{--color-border-control:#8c8782;--color-stage:#f3f0e8;--color-wrong-dark:#8a2d22}
+
+/* Standard layout and type scale. Declared last so it is the single source for every screen. */
+:root,.app-shell{
+  --page-margin:20px;
+  --card-padding:var(--space-4);
+  --card-border:1px solid var(--color-border-strong);
+  --card-shadow:4px 4px 0 var(--color-border-subtle);
+  --font-size-small:.875rem;
+  --font-size-points:var(--font-size-small);
+  --font-size-count:var(--font-size-small);
+  --font-size-selection-label:var(--font-size-base);
+  --font-size-action:var(--font-size-base);
+  --font-size-action-outline:var(--font-size-base);
+  --font-size-card-heading:1.375rem;
+  --text-small:var(--font-weight-regular) var(--font-size-small)/var(--line-height-normal) var(--font-family-body);
+  --text-selection-label:var(--font-weight-bold) var(--font-size-selection-label)/1.2 var(--font-family-body);
+  --text-card-heading:var(--font-weight-regular) var(--font-size-card-heading)/1.2 var(--font-family-display);
+  --text-action-outline:var(--font-weight-semibold) var(--font-size-action-outline)/normal var(--font-family-body);
+}
+@media(max-width:650px){:root,.app-shell{--font-size-page-heading:1.75rem;--font-size-section-heading:1.25rem;--font-size-card-heading:1.25rem}}
+:root,.app-shell{--text-label:var(--font-weight-bold) var(--font-size-base)/1.2 var(--font-family-body)}

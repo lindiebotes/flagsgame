@@ -1,0 +1,48 @@
+/* Shared screen rules: one page margin, safe areas for notched phones, one card style and one type scale. */
+/* Text roles that older per-screen rules still sized by hand. */
+.app-shell .intro p,.app-shell .results p,.app-shell .settings-intro p{font:var(--text-body)}
+.app-shell .result-kicker{font:var(--font-weight-bold) var(--font-size-small)/1.2 var(--font-family-body)}
+.app-shell .typed-answer-label,.app-shell .typed-answer-error{font:var(--text-small)}
+.app-shell .play-card{background:var(--color-surface)}
+
+@media(max-width:650px){
+  .app-shell .game-page,.app-shell .settings-page{
+    padding-left:max(var(--page-margin),env(safe-area-inset-left));
+    padding-right:max(var(--page-margin),env(safe-area-inset-right));
+    padding-top:calc(env(safe-area-inset-top) + var(--space-5));
+  }
+  .app-shell .game-page .intro,.app-shell .settings-page .settings-intro{max-width:none;margin:0;padding:0 0 var(--space-5)}
+  .app-shell .game-page .intro h1,.app-shell .settings-page .settings-intro h1{margin:0;font:var(--text-page-heading)}
+  .app-shell .game-page .intro p,.app-shell .settings-page .settings-intro p{margin:var(--space-3) 0 0}
+
+  /* One card: same border, shadow and padding on every screen. */
+  .app-shell .settings-card,.app-shell .play-card,.app-shell .how-to-card,.app-shell .play-dialog{padding:var(--card-padding);border:var(--card-border);box-shadow:var(--card-shadow)}
+  .app-shell .settings-card,.app-shell .settings-intro{max-width:none}
+
+  /* Gameplay keeps clear of the notch and the home indicator. */
+  .app-shell .game-page.game-page--playing{padding-top:calc(env(safe-area-inset-top) + var(--space-3));padding-bottom:max(var(--space-3),env(safe-area-inset-bottom))}
+  .app-shell .play-stage{width:min(100%,calc((100dvh - 510px - env(safe-area-inset-top) - env(safe-area-inset-bottom)) * 2));margin-inline:auto}
+
+  /* Fixed bottom bars follow the same margins and the home indicator. */
+  .app-shell .setup-bar,.app-shell .how-to-actions{padding:var(--space-3) max(var(--page-margin),env(safe-area-inset-right)) calc(var(--space-4) + env(safe-area-inset-bottom)) max(var(--page-margin),env(safe-area-inset-left))}
+}
+
+/* Smaller flag previews on mobile so each screen fits in one viewport. */
+@media(max-width:650px){
+  .app-shell .level-option{min-height:104px;gap:var(--space-3);padding:var(--space-4) var(--space-2)}
+  .app-shell .level-preview{height:auto}
+  .app-shell .level-option .pixel-preview{width:52px}
+  .app-shell .how-to-illustration{min-height:0;margin:var(--space-2) 0}
+  .app-shell .how-to-card .pixel-preview{width:96px}
+  .app-shell .how-to-reveal-art img{width:96px}
+  .app-shell .how-to-guess-art,.app-shell .how-to-reveal-art{gap:var(--space-2)}
+  .app-shell .how-to-cards{gap:var(--space-3)}
+  .app-shell .how-to-header{margin-bottom:var(--space-3)}
+}
+
+/* Home never scrolls when its content fits; the shell no longer forces extra height on the setup screen. */
+@media(max-width:650px){
+  .app-shell:has(.setup){min-height:0}
+  .app-shell .play-feedback{flex-wrap:nowrap;gap:var(--space-2)}
+  .app-shell .play-feedback-text{min-width:0;flex:0 1 auto}
+}

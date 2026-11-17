@@ -7,3 +7,4 @@
 @media(max-width:480px){.flag-frame{min-height:0}.flag-art{width:min(100%,calc(19vh * var(--flag-ratio, 1.5)))}}
 @media(min-width:851px){.flag-frame{min-height:0}.flag-art{width:min(100%,calc(25vh * var(--flag-ratio, 1.5)))}}
 @media(min-width:651px) and (max-width:850px){.flag-frame{min-height:0}.flag-art{width:min(100%,calc(23vh * var(--flag-ratio, 1.5)))}}
+.flag-error{font:var(--text-body)}

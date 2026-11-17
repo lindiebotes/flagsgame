@@ -1,3 +1,12 @@
 import './FlagSetOption.css';
-type Props={label:string;bonus:string;selected:boolean;onChange:()=>void;previews?:string[]};
-export function FlagSetOption({label,bonus,selected,onChange,previews=[]}:Props){return <label className={`flag-set-option ${selected?'is-selected':''}`}><input type="checkbox" checked={selected} onChange={onChange}/><span className="flag-set-previews" aria-hidden="true">{previews.map(url=><img key={url} src={url} alt=""/>)}</span><span className="flag-set-name">{label}</span><span className="flag-set-bonus">{bonus}</span></label>}
+import {FlagImage} from './FlagImage';
+type Props={label:string;count:number;selected:boolean;onChange:()=>void;previews?:string[]};
+
+export function FlagSetOption({label,count,selected,onChange,previews=[]}:Props){
+  return <label className={`setup-card flag-set-option${selected?' is-selected':''}`}>
+    <input className="flag-set-check" type="checkbox" checked={selected} onChange={onChange}/>
+    <span className="flag-set-previews" aria-hidden="true">{previews.map(url=><FlagImage key={url} url={url} alt=""/>)}</span>
+    <span className="flag-pack-label">{label}<span className="sr-only">, </span></span>
+    <span className="flag-pack-count">{count} flags</span>
+  </label>;
+}

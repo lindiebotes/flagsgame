@@ -4,3 +4,5 @@
 @media(max-width:650px){.color-grid{width:min(100%,300px)}}
 @media(max-width:480px){.color-grid{width:min(100%,calc(19vh * 1.5))}}
 @media(min-width:851px){.color-grid{width:min(100%,calc(25vh * 1.5))}}
+
+.color-grid-cell{box-shadow:none}

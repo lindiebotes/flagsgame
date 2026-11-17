@@ -1,0 +1,2 @@
+.pixel-preview{display:block;width:72px;height:auto;image-rendering:pixelated;opacity:0;transition:opacity .15s}
+.pixel-preview[data-ready="true"]{opacity:1}

@@ -2,11 +2,11 @@ import {useMemo} from 'react';
 import './ColorGrid.css';
 type Palette={color:string;percent:number}[];
 type Props={palette:Palette;seed:string};
-const CELLS=24;
-function buildBlocks(palette:Palette,seed:string):string[]{
+const CELLS=40;
+export function buildBlocks(palette:Palette,seed:string,cells=CELLS):string[]{
   const colors=palette.map(p=>p.color);
-  const base=Math.floor(CELLS/colors.length);
-  const extra=CELLS-base*colors.length;
+  const base=Math.floor(cells/colors.length);
+  const extra=cells-base*colors.length;
   const blocks:string[]=[];
   colors.forEach((color,i)=>{for(let n=0;n<base;n++)blocks.push(color)});
   let random=Array.from(seed).reduce((hash,char)=>(Math.imul(hash,31)+char.charCodeAt(0))>>>0,1);

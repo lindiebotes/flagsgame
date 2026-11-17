@@ -1,0 +1,15 @@
+.how-to-card{display:flex;flex-direction:column;min-width:0;min-height:100%;padding:20px;background:var(--color-surface);border:2px solid var(--color-border-strong);box-shadow:6px 6px 0 var(--color-border-subtle)}
+.how-to-card-title{display:flex;align-items:center;gap:12px;margin:0;color:var(--color-text);font:var(--text-card-heading)}
+.how-to-card-title>span{display:grid;place-items:center;flex:none;width:26px;height:26px;border-radius:50%;background:var(--color-text);color:var(--color-surface);font:var(--font-weight-bold) var(--font-size-small)/1 var(--font-family-body)}
+.how-to-illustration{display:flex;flex:1;min-height:176px;align-items:center;justify-content:center;gap:16px;margin:16px 0}
+.how-to-card p{margin:0;color:var(--color-text-supporting);font:var(--text-body-small)}
+.how-to-guess-art{display:flex;flex-direction:column;align-items:center;gap:18px;width:100%}
+.how-to-mini-options{display:flex;justify-content:center;gap:6px;width:100%}
+.how-to-mini-options span{padding:8px 10px;background:var(--color-surface);border:2px solid var(--color-border-subtle);font:var(--font-weight-semibold) var(--font-size-small)/1.2 var(--font-family-body);white-space:nowrap}
+.how-to-mini-options .is-answer{background:var(--color-accent);border-color:var(--color-border-strong)}
+.how-to-reveal-art{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%}
+.how-to-reveal-art img{display:block;width:min(100%,220px);aspect-ratio:3/2;object-fit:contain}
+.how-to-reveal-answer{display:flex;align-items:center;gap:12px;font:var(--text-label);color:var(--color-text)}
+.how-to-check{display:grid;place-items:center;width:32px;height:32px;border:2px solid var(--color-border-strong);border-radius:50%;background:var(--color-accent)}
+.how-to-check::after{content:'';width:12px;height:6px;border-left:2.5px solid var(--color-text);border-bottom:2.5px solid var(--color-text);transform:rotate(-45deg) translate(1px,-1px)}
+@media(max-width:650px){.how-to-card{padding:16px}.how-to-illustration{min-height:132px;margin:12px 0}.how-to-mini-options span{padding:7px 6px;font-size:var(--font-size-small)}}

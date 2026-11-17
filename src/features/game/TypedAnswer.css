@@ -6,3 +6,4 @@
 @media(max-width:480px){.typed-answer{margin-top:var(--space-2)}.typed-answer-label{font-size:var(--font-size-sm);margin-bottom:var(--space-1)}.typed-answer input{font-size:var(--font-size-base);min-height:44px}.typed-answer-row .button{min-height:44px}}
 .typed-answer-error{margin:var(--space-2) 0 0;color:var(--color-wrong);font:var(--text-body-small)}
 .typed-answer input[aria-invalid="true"]{border-color:var(--color-wrong)}
+.typed-answer input,.suggestion-list li{font:var(--text-body)}

@@ -2,3 +2,4 @@
 .map-popover{width:360px}.map-popover iframe{height:240px}@media(max-width:650px){.map-popover{width:min(300px,80vw)}.map-popover iframe{height:200px}}
 @media(max-width:480px){.location-result{gap:var(--space-2);font-size:var(--font-size-sm)}.location-pin{width:30px;height:30px}.location-pin svg{width:14px;height:14px}}
 @media(min-width:651px) and (max-width:850px){.map-popover{box-shadow:var(--shadow-card)}}
+.location-result,.location-name span,.map-popover a{font:var(--text-body)}

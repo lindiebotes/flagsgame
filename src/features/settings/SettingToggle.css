@@ -10,3 +10,5 @@
 .setting-switch:focus-visible{outline:3px solid var(--color-detail-91bda2);outline-offset:3px}
 @media(max-width:650px){.setting-toggle{gap:16px;align-items:flex-start}.setting-name{font-size:calc(var(--font-size-base) * 1)}.setting-desc{font-size:calc(var(--font-size-base) * 1.125)}}
 @media(max-width:650px){.setting-toggle{padding:var(--space-4) 0;gap:var(--space-3)}.setting-name{font-size:var(--font-size-base)}.setting-desc{font-size:var(--font-size-sm)}}
+.setting-name{font:var(--text-selection-label)}
+.setting-desc{font:var(--text-body)}

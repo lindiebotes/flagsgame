@@ -1,0 +1,31 @@
+.game-page:has(.how-to-screen) .game-card{border:0;background:transparent;box-shadow:none}
+.game-page:has(.how-to-screen) .card-bottom{padding:0}
+.how-to-screen{width:100%;margin:0;padding:0 0 32px}
+.how-to-header{position:relative;margin-bottom:24px}
+.how-to-header p{margin:0;color:var(--color-text-supporting);font:var(--text-body)}
+.how-to-close{position:absolute;top:0;right:0;display:grid;place-items:center;width:44px;height:44px;padding:0;border:2px solid var(--color-border-strong);border-radius:50%;background:transparent;color:var(--color-text);cursor:pointer}
+.how-to-close:hover{background:var(--color-selected)}
+.how-to-close:focus-visible{outline:2px solid var(--color-text);outline-offset:2px}
+.how-to-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:24px}
+.how-to-actions{display:flex;justify-content:flex-end;margin-top:28px}
+.how-to-actions .button{min-width:190px;min-height:56px;border-radius:var(--radius-pill)}
+.how-to-card .pixel-preview{width:min(100%,220px)}
+@media(max-width:900px){
+  .how-to-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+  .how-to-card{min-height:0;padding:18px}
+  .how-to-mini-options{flex-wrap:wrap}
+  .how-to-mini-options span{padding:7px 8px;font-size:var(--font-size-small)}
+}
+@media(max-width:650px){
+  .how-to-screen{padding:0 0 24px}
+  .how-to-header{margin-bottom:18px}
+  .how-to-cards{grid-template-columns:1fr;gap:16px;margin-top:18px}
+  .how-to-card{min-height:0}
+  .how-to-illustration{min-height:120px}
+  .how-to-actions{margin-top:22px}
+  .how-to-screen{padding-bottom:100px}
+  .how-to-actions{position:fixed;z-index:30;left:0;right:0;bottom:0;margin:0;padding:12px 20px calc(16px + env(safe-area-inset-bottom));background:var(--color-background);border-top:0}
+  .how-to-actions .button{width:100%;min-width:0}
+}
+@media(min-width:901px){.how-to-card .pixel-preview{width:min(100%,280px)}.how-to-reveal-art img{width:min(100%,280px)}.how-to-illustration{min-height:220px}}
+@media(min-width:651px) and (max-width:900px){.how-to-card:last-child{grid-column:1/-1}}
