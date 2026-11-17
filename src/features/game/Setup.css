@@ -47,6 +47,7 @@
   .setup-bar .button{width:calc((100% - var(--space-4))/2)}
 }
 @media(min-width:851px){
+  .game-page:has(.setup){--font-size-selection-label:.9375rem;--text-selection-label:var(--font-weight-bold) var(--font-size-selection-label)/1.2 var(--font-family-body)}
   .setup{gap:var(--space-5);padding:var(--space-5)}
   .setup-heading{margin-bottom:var(--space-2)}
   .setup-levels,.game-page .setup-packs{gap:var(--space-3)}
