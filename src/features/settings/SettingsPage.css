@@ -37,4 +37,5 @@
 .settings-heading h2{font:var(--text-section-heading)}
 .settings-intro p{font:var(--text-body)}
 .settings-page .settings-intro p{padding:0;background:transparent;color:var(--color-text-supporting);font:var(--text-body)}
+.settings-card{box-shadow:var(--shadow-card)}
 @media(max-width:650px){.settings-page{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}}

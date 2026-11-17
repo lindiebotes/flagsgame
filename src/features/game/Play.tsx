@@ -1,10 +1,11 @@
 import {useEffect,useState,type ReactNode} from 'react';
+import {createPortal} from 'react-dom';
 import {Button} from '../../components/ui/Button';
 import './Play.css';
 
-type Props={index:number;total:number;onQuit:()=>void;stage:ReactNode;feedback:ReactNode;answers:ReactNode;typed:boolean;action:ReactNode};
+type Props={index:number;total:number;completed:('first'|'later'|'with-hint'|'missed')[];onQuit:()=>void;stage:ReactNode;feedback:ReactNode;answers:ReactNode;typed:boolean;hints?:ReactNode;action:ReactNode};
 
-export function Play({index,total,onQuit,stage,feedback,answers,typed,action}:Props){
+export function Play({index,total,completed,onQuit,stage,feedback,answers,typed,hints,action}:Props){
   const [confirming,setConfirming]=useState(false);
   useEffect(()=>{
     if(!confirming)return;
@@ -16,7 +17,7 @@ export function Play({index,total,onQuit,stage,feedback,answers,typed,action}:Pr
     <div className="play-top">
       <div className="play-progress" role="img" aria-label={`Round ${index+1} of ${total}`}>
         <span className="play-count">{index+1}/{total}</span>
-        <span className="play-segments">{Array.from({length:total},(_,i)=><i key={i} className={i<index?'is-done':i===index?'is-current':undefined}/>)}</span>
+         <span className="play-segments">{Array.from({length:total},(_,i)=><i key={i} className={completed[i]?`is-${completed[i]}`:i===index?'is-current':undefined}/>)}</span>
       </div>
       <button type="button" className="play-quit" aria-label="Quit game" onClick={()=>setConfirming(true)}><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3 3l12 12M15 3 3 15" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/></svg></button>
     </div>
@@ -25,11 +26,12 @@ export function Play({index,total,onQuit,stage,feedback,answers,typed,action}:Pr
       <div className="play-feedback" aria-live="polite">{feedback}</div>
       <h2 className="play-question">Which flag is it?</h2>
       <div className={`play-answers${typed?' is-typed':''}`}>{answers}</div>
+      {hints}
       <div className="play-bar"><div className="play-slot">{action}</div></div>
     </section>
-    {confirming&&<div className="play-overlay"><div className="play-dialog" role="dialog" aria-modal="true" aria-labelledby="quit-title">
-      <h2 id="quit-title">Quit this game?</h2>
-      <div className="play-dialog-actions"><Button autoFocus onClick={()=>setConfirming(false)}>Keep playing</Button><Button variant="outline" onClick={onQuit}>Quit</Button></div>
-    </div></div>}
+     {confirming&&createPortal(<div className="play-overlay"><div className="play-dialog" role="dialog" aria-modal="true" aria-labelledby="quit-title">
+       <h2 id="quit-title">Quit this game?</h2>
+       <div className="play-dialog-actions"><Button autoFocus onClick={()=>setConfirming(false)}>Keep playing</Button><Button variant="outline" onClick={onQuit}>Quit</Button></div>
+     </div></div>,document.body)}
   </div>;
 }

@@ -76,6 +76,6 @@ export function FlagCanvas({url,columns,revealed=false,onReady,onColors}:Props){
 
   return <div className="flag-frame">{error
     ?<div className="flag-error">This flag couldn’t load.<br/>Please check your connection.<br/><Button variant="outline" onClick={()=>{setError(false);setRetry(n=>n+1)}}>Try again</Button></div>
-    :<div className={`flag-art${revealed?' is-revealed':''}`}><canvas ref={canvas} aria-label={revealed?'The revealed flag':'A pixelated mystery flag'}/><FlagImage url={url} alt="" className={revealed?'flag-original revealed':'flag-original'}/></div>}
+    :<div className={`flag-art${revealed?' is-revealed':''}`}><canvas ref={canvas} aria-label={revealed?'The revealed flag':'A pixelated mystery flag'}/>{revealed&&<FlagImage url={url} alt="" draggable={false} className="flag-original revealed"/>}</div>}
   </div>;
 }

@@ -1,7 +1,7 @@
 .how-to-card{display:flex;flex-direction:column;min-width:0;min-height:100%;padding:20px;background:var(--color-surface);border:2px solid var(--color-border-strong);box-shadow:6px 6px 0 var(--color-border-subtle)}
 .how-to-card-title{display:flex;align-items:center;gap:12px;margin:0;color:var(--color-text);font:var(--text-card-heading)}
 .how-to-card-title>span{display:grid;place-items:center;flex:none;width:26px;height:26px;border-radius:50%;background:var(--color-text);color:var(--color-surface);font:var(--font-weight-bold) var(--font-size-small)/1 var(--font-family-body)}
-.how-to-illustration{display:flex;flex:1;min-height:176px;align-items:center;justify-content:center;gap:16px;margin:16px 0}
+.how-to-illustration{display:flex;flex:1;min-height:176px;align-items:flex-start;justify-content:center;gap:16px;margin:16px 0}
 .how-to-card p{margin:0;color:var(--color-text-supporting);font:var(--text-body-small)}
 .how-to-guess-art{display:flex;flex-direction:column;align-items:center;gap:18px;width:100%}
 .how-to-mini-options{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;width:100%;min-width:0}

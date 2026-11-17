@@ -38,7 +38,7 @@
   .game-page:has(.setup) .game-card,.game-page:has(.setup) .card-bottom{width:100%;max-width:100%;min-width:0}
   .game-page:has(.setup) .game-card{border:0;background:transparent;box-shadow:none}
   .setup,.setup-section,.setup-levels,.game-page .setup-packs{width:100%;max-width:calc(100vw - 40px);min-width:0}
-  .app-shell .game-page:has(.setup){display:block;width:100%;height:100dvh;max-width:100%;min-width:0;min-height:0;margin:0;padding:calc(env(safe-area-inset-top) + 24px) 20px 84px;box-sizing:border-box;overflow:hidden}
+  .app-shell .game-page:has(.setup){display:block;width:100%;height:100dvh;max-width:100%;min-width:0;min-height:0;margin:0;padding:calc(env(safe-area-inset-top) + 24px) 20px calc(100px + env(safe-area-inset-bottom));box-sizing:border-box;overflow:hidden}
   .app-shell .game-page:has(.setup) .intro-title{width:100%;min-width:0}
   .app-shell .game-page:has(.setup) .game-card,.app-shell .game-page:has(.setup) .card-bottom{width:100%;max-width:calc(100vw - 40px);min-width:0}
   .app-shell .setup,.app-shell .setup-section,.app-shell .setup-levels,.app-shell .game-page .setup-packs{width:100%;max-width:calc(100vw - 40px);min-width:0}
@@ -50,9 +50,10 @@
   .game-page .setup-packs{display:flex;flex-direction:column;grid-template-columns:1fr}
   .level-option{min-width:0;min-height:72px;flex-direction:column;justify-content:center;gap:4px;padding:6px;text-align:center;overflow:hidden}
   .setup-levels .level-option{width:100%;max-width:100%;height:72px;min-height:72px}
-  .app-shell .setup-levels .level-option{width:100%;max-width:100%;height:72px;min-height:72px}
+  .app-shell .setup-levels .level-option{width:100%;max-width:100%;height:72px;min-height:72px;padding:8px 4px}
+  .app-shell .game-page:has(.setup) .setup-bar{padding-bottom:calc(24px + env(safe-area-inset-bottom))}
   .level-option .level-preview{width:52px;height:24px;flex:none}
-    .setup-bar{position:fixed;z-index:30;left:0;right:0;bottom:0;padding:12px 20px calc(16px + env(safe-area-inset-bottom));background:var(--color-background);border-top:0}
+    .setup-bar{position:fixed;z-index:30;left:0;right:0;bottom:0;padding:12px 20px calc(24px + env(safe-area-inset-bottom));background:var(--color-background);border-top:0}
   .setup-bar .button{width:100%;height:48px;min-height:48px}
   .how-to-play{gap:var(--space-5)}
 }

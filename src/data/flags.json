@@ -3,7 +3,7 @@
     "name": "Portugal",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       39.4,
       -8.2
@@ -23,7 +23,7 @@
     "name": "Kenya",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       -0.02,
       37.9
@@ -51,7 +51,7 @@
     "name": "Sri Lanka",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       7.9,
       80.7
@@ -79,7 +79,7 @@
     "name": "Nepal",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       28.4,
       84.1
@@ -103,7 +103,7 @@
     "name": "Iceland",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       64.9,
       -19.0
@@ -127,7 +127,7 @@
     "name": "Croatia",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       45.1,
       15.2
@@ -151,7 +151,7 @@
     "name": "Ghana",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       7.9,
       -1.0
@@ -179,7 +179,7 @@
     "name": "Mongolia",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       46.9,
       103.8
@@ -203,7 +203,7 @@
     "name": "Cambodia",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       12.6,
       104.9
@@ -227,7 +227,7 @@
     "name": "Uruguay",
     "region": "South America",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       -32.5,
       -55.8
@@ -247,7 +247,7 @@
     "name": "Lebanon",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       33.9,
       35.9
@@ -271,7 +271,7 @@
     "name": "South Africa",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       -30.6,
       22.9
@@ -307,7 +307,7 @@
     "name": "Bermuda",
     "region": "North America",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bermuda.svg",
-    "set": "World flags",
+    "set": "Territories and islands",
     "coordinates": [
       32.3,
       -64.8
@@ -332,35 +332,10 @@
     ]
   },
   {
-    "name": "Åland Islands",
-    "region": "Europe",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Flag_of_%C3%85land.svg",
-    "set": "World flags",
-    "parentCountry": "Finland",
-    "coordinates": [
-      60.2,
-      20.0
-    ],
-    "palette": [
-      {
-        "color": "#0053a5",
-        "percent": 60
-      },
-      {
-        "color": "#ffd600",
-        "percent": 25
-      },
-      {
-        "color": "#d21034",
-        "percent": 15
-      }
-    ]
-  },
-  {
     "name": "New Zealand",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       -41.0,
       174.0
@@ -384,7 +359,7 @@
     "name": "Maldives",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       3.2,
       73.2
@@ -408,7 +383,7 @@
     "name": "Oman",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       21.5,
       55.9
@@ -432,7 +407,7 @@
     "name": "Liechtenstein",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Liechtenstein.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       47.16,
       9.55
@@ -456,7 +431,7 @@
     "name": "San Marino",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       43.94,
       12.45
@@ -480,7 +455,7 @@
     "name": "Andorra",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       42.51,
       1.52
@@ -504,7 +479,7 @@
     "name": "Moldova",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       47.4,
       28.4
@@ -528,7 +503,7 @@
     "name": "Comoros",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       -11.7,
       43.3
@@ -560,7 +535,7 @@
     "name": "Eswatini",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Eswatini.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       -26.5,
       31.5
@@ -592,7 +567,7 @@
     "name": "Lesotho",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       -29.6,
       28.2
@@ -620,7 +595,7 @@
     "name": "Seychelles",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Seychelles.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       -4.67,
       55.49
@@ -652,7 +627,7 @@
     "name": "Saint Kitts and Nevis",
     "region": "Caribbean",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       17.36,
       -62.78
@@ -684,7 +659,7 @@
     "name": "Saint Lucia",
     "region": "Caribbean",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Saint_Lucia.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       13.91,
       -60.98
@@ -712,7 +687,7 @@
     "name": "Bhutan",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       27.5,
       90.4
@@ -736,7 +711,7 @@
     "name": "Brunei",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Brunei.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       4.54,
       114.73
@@ -768,7 +743,7 @@
     "name": "Kyrgyzstan",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       41.2,
       74.8
@@ -788,7 +763,7 @@
     "name": "Nauru",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       -0.52,
       166.93
@@ -812,7 +787,7 @@
     "name": "Kiribati",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg",
-    "set": "Rare countries",
+    "set": "Rare flags",
     "coordinates": [
       1.87,
       -157.4
@@ -1239,7 +1214,7 @@
     "name": "France",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       46.6,
       2.2
@@ -1263,7 +1238,7 @@
     "name": "Germany",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       51.2,
       10.4
@@ -1287,7 +1262,7 @@
     "name": "Italy",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       42.8,
       12.8
@@ -1311,7 +1286,7 @@
     "name": "Spain",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       40.4,
       -3.7
@@ -1331,7 +1306,7 @@
     "name": "Japan",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       36.2,
       138.3
@@ -1351,7 +1326,7 @@
     "name": "China",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       35.9,
       104.2
@@ -1371,7 +1346,7 @@
     "name": "India",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       20.6,
       79.0
@@ -1395,7 +1370,7 @@
     "name": "South Korea",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       35.9,
       127.8
@@ -1419,7 +1394,7 @@
     "name": "Brazil",
     "region": "South America",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       -14.2,
       -51.9
@@ -1447,7 +1422,7 @@
     "name": "Argentina",
     "region": "South America",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       -38.4,
       -63.6
@@ -1467,7 +1442,7 @@
     "name": "Mexico",
     "region": "North America",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       23.6,
       -102.5
@@ -1491,7 +1466,7 @@
     "name": "Canada",
     "region": "North America",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       56.1,
       -106.3
@@ -1511,7 +1486,7 @@
     "name": "Egypt",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       26.8,
       30.8
@@ -1535,7 +1510,7 @@
     "name": "Nigeria",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       9.1,
       8.7
@@ -1555,7 +1530,7 @@
     "name": "Morocco",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       31.8,
       -7.1
@@ -1575,7 +1550,7 @@
     "name": "Australia",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia_%28converted%29.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       -25.3,
       133.8
@@ -1599,7 +1574,7 @@
     "name": "Fiji",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Fiji.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       -17.7,
       178.1
@@ -1627,7 +1602,7 @@
     "name": "Norway",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       60.5,
       8.5
@@ -1651,7 +1626,7 @@
     "name": "Sweden",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       60.1,
       18.6
@@ -1671,7 +1646,7 @@
     "name": "Türkiye",
     "region": "Asia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       38.9,
       35.2
@@ -1979,7 +1954,7 @@
     "name": "North Macedonia",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       41.61,
       21.75
@@ -1999,7 +1974,7 @@
     "name": "Palau",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       7.51,
       134.58
@@ -2019,7 +1994,7 @@
     "name": "Serbia",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
-    "set": "World flags",
+    "set": "Common flags",
     "coordinates": [
       44.02,
       21.01

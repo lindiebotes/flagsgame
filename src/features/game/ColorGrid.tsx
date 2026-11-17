@@ -2,16 +2,19 @@ import {useMemo} from 'react';
 import './ColorGrid.css';
 type Palette={color:string;percent:number}[];
 type Props={palette:Palette;seed:string};
-const CELLS=40;
+const CELLS=24;
 export function buildBlocks(palette:Palette,seed:string,cells=CELLS):string[]{
   const colors=palette.map(p=>p.color);
+  if(!colors.length||cells<=0)return [];
   const base=Math.floor(cells/colors.length);
   const extra=cells-base*colors.length;
   const blocks:string[]=[];
   colors.forEach((color,i)=>{for(let n=0;n<base;n++)blocks.push(color)});
   let random=Array.from(seed).reduce((hash,char)=>(Math.imul(hash,31)+char.charCodeAt(0))>>>0,1);
   const rand=()=>{random=(Math.imul(random,1664525)+1013904223)>>>0;return random/4294967296};
-  for(let i=0;i<extra;i++)blocks.push(colors[Math.floor(rand()*colors.length)]);
+  const remainingColors=[...colors];
+  for(let i=remainingColors.length-1;i>0;i--){const j=Math.floor(rand()*(i+1));[remainingColors[i],remainingColors[j]]=[remainingColors[j],remainingColors[i]]}
+  for(let i=0;i<extra;i++)blocks.push(remainingColors[i]);
   for(let i=blocks.length-1;i>0;i--){const j=Math.floor(rand()*(i+1));[blocks[i],blocks[j]]=[blocks[j],blocks[i]]}
   return blocks;
 }

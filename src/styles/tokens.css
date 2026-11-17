@@ -5,6 +5,7 @@
 :root{--shadow-card:6px 6px 0 var(--color-border-subtle);--shadow-selection:3px 3px 0 var(--color-border-subtle)}
 
 :root{--font-size-points:calc(var(--font-size-base) * .6875)}
+:root{--color-correct-later:#c98718}
 @media (min-width:481px) and (max-width:650px){:root{--font-size-points:var(--font-size-xs)}}
 
 /* Recalculate composite styles when a design preview overrides a base token. */

@@ -20,7 +20,7 @@
 @media(max-width:650px){
   .setup-card.flag-set-option{--u:.56;grid-template-columns:18px 60px minmax(0,1fr) max-content;grid-template-rows:auto;align-items:center;column-gap:var(--space-2);width:100%;max-width:100%;min-width:0;min-height:48px;padding:6px var(--space-2)}
   .flag-set-check{grid-area:1/1;align-self:center;width:18px;height:18px}
-  .flag-set-previews{grid-area:1/2;width:44px;height:32px}
+  .flag-set-previews{grid-area:1/2;width:44px;height:32px;transform:translateX(8px)}
   .flag-pack-label{grid-area:1/3;align-self:center;min-width:0;text-align:left;overflow-wrap:anywhere;font-size:calc(var(--font-size-base) * .875)}
   .flag-pack-count{grid-area:1/4;align-self:center;justify-self:end;font-size:calc(var(--font-size-base) * .75);line-height:1.2;white-space:nowrap}
 }

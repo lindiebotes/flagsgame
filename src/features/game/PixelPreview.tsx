@@ -7,7 +7,7 @@ import './PixelPreview.css';
 
 export type PreviewLevel='easy'|'medium'|'expert';
 type Props={url:string;level:PreviewLevel;seed:string;columns?:number};
-const SETTINGS={easy:{columns:24,cell:3},medium:{columns:8,cell:9},expert:{columns:8,cell:9}};
+const SETTINGS={easy:{columns:14,cell:6},medium:{columns:8,cell:9},expert:{columns:8,cell:9}};
 const SAMPLE_WIDTH=288;
 
 // Decorative preview drawn as whole-pixel blocks on a canvas, so cells never have gaps or lines.
