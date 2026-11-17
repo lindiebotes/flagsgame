@@ -12,4 +12,5 @@
 .answer-check::after{content:'';width:12px;height:6px;border-left:2.5px solid var(--color-text);border-bottom:2.5px solid var(--color-text);transform:rotate(-45deg) translate(1px,-1px)}
 .answer-cross{flex:none}
 @media(max-width:599px){.answer-key{display:none}}
+@media(max-width:599px){.answer-option{height:50px;gap:8px;padding-inline:12px;font-size:calc(var(--font-size-base) * .875)}}
 @media(prefers-reduced-motion:reduce){.answer-option{transition:none}}

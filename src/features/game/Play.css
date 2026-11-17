@@ -62,5 +62,6 @@
 .play-dialog-actions .button--outline{color:var(--color-text);background:transparent}
 .play-dialog-actions .button--outline:hover:not(:disabled){background:var(--color-selected);color:var(--color-text);border-color:var(--color-border-strong)}
 @media(max-width:599px){.play-card{padding:12px}.play-bar{margin-top:16px}}
+@media(max-width:599px){.play-question{font-size:var(--font-size-lg)}.play-answers .typed-answer input{height:50px}.play-slot{height:50px}.play-slot .button{height:50px;min-height:50px;font-size:var(--font-size-sm)}}
 @media(max-height:760px){.play-stage{width:min(100%,calc((100dvh - 510px)*1.5));margin-inline:auto}}
 @media(prefers-reduced-motion:reduce){.play-quit{transition:none}}

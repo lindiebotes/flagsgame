@@ -1,3 +1,4 @@
 .level-option{flex-direction:column;align-items:center;justify-content:center;gap:var(--space-3);min-height:150px;padding:var(--space-4) var(--space-2);text-align:center}
 .level-preview{display:flex;align-items:center;justify-content:center;height:48px}
 .level-label{font:var(--text-selection-label)}
+@media(max-width:599px){.level-option{gap:var(--space-1);padding:var(--space-2) var(--space-1)}.level-preview{height:24px}.level-label{font-size:calc(var(--font-size-base) * .875)}}

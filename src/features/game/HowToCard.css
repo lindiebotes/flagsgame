@@ -4,8 +4,8 @@
 .how-to-illustration{display:flex;flex:1;min-height:176px;align-items:center;justify-content:center;gap:16px;margin:16px 0}
 .how-to-card p{margin:0;color:var(--color-text-supporting);font:var(--text-body-small)}
 .how-to-guess-art{display:flex;flex-direction:column;align-items:center;gap:18px;width:100%}
-.how-to-mini-options{display:flex;justify-content:center;gap:6px;width:100%}
-.how-to-mini-options span{padding:8px 10px;background:var(--color-surface);border:2px solid var(--color-border-subtle);font:var(--font-weight-semibold) var(--font-size-small)/1.2 var(--font-family-body);white-space:nowrap}
+.how-to-mini-options{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;width:100%;min-width:0}
+.how-to-mini-options span{min-width:0;max-width:100%;padding:8px 10px;background:var(--color-surface);border:2px solid var(--color-border-subtle);font:var(--font-weight-semibold) var(--font-size-small)/1.2 var(--font-family-body);white-space:normal;text-align:center}
 .how-to-mini-options .is-answer{background:var(--color-accent);border-color:var(--color-border-strong)}
 .how-to-reveal-art{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%}
 .how-to-reveal-art img{display:block;width:min(100%,220px);aspect-ratio:3/2;object-fit:contain}
@@ -13,3 +13,4 @@
 .how-to-check{display:grid;place-items:center;width:32px;height:32px;border:2px solid var(--color-border-strong);border-radius:50%;background:var(--color-accent)}
 .how-to-check::after{content:'';width:12px;height:6px;border-left:2.5px solid var(--color-text);border-bottom:2.5px solid var(--color-text);transform:rotate(-45deg) translate(1px,-1px)}
 @media(max-width:650px){.how-to-card{padding:16px}.how-to-illustration{min-height:132px;margin:12px 0}.how-to-mini-options span{padding:7px 6px;font-size:var(--font-size-small)}}
+@media(max-width:599px){.how-to-card{padding:12px}.how-to-card-title{gap:8px;font-size:var(--font-size-sm)}.how-to-card-title>span{width:22px;height:22px}.how-to-illustration{min-height:92px;margin:8px 0;gap:8px}.how-to-card p{font-size:calc(var(--font-size-base) * .75);line-height:1.4}.how-to-guess-art{gap:8px}.how-to-mini-options{gap:4px}.how-to-mini-options span{padding:4px 5px;font-size:calc(var(--font-size-base) * .75)}.how-to-reveal-art{gap:8px}.how-to-reveal-art img{width:min(100%,150px)}.how-to-reveal-answer{gap:8px;font-size:var(--font-size-sm)}.how-to-check{width:24px;height:24px}}

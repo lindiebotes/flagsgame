@@ -18,7 +18,7 @@
 }
 @media(max-width:650px){
   .how-to-screen{padding:0 0 24px}
-  .how-to-header{margin-bottom:18px}
+  .how-to-header{margin-bottom:12px}
   .how-to-cards{grid-template-columns:1fr;gap:16px;margin-top:18px}
   .how-to-card{min-height:0}
   .how-to-illustration{min-height:120px}
@@ -29,3 +29,28 @@
 }
 @media(min-width:901px){.how-to-card .pixel-preview{width:min(100%,280px)}.how-to-reveal-art img{width:min(100%,280px)}.how-to-illustration{min-height:220px}}
 @media(min-width:651px) and (max-width:900px){.how-to-card:last-child{grid-column:1/-1}}
+@media(min-width:901px){
+  .game-page:has(.how-to-screen){padding-inline:var(--space-5)}
+  .game-page:has(.how-to-screen) .intro{padding:var(--space-4) 0 var(--space-2)}
+  .game-page:has(.how-to-screen) .intro h1{margin-bottom:var(--space-2)}
+  .how-to-screen{padding-bottom:var(--space-3)}
+  .how-to-header{margin-bottom:var(--space-3)}
+  .how-to-cards{gap:var(--space-3);margin-top:var(--space-3)}
+  .how-to-card{padding:var(--space-4)}
+  .how-to-card-title{gap:var(--space-2);font-size:var(--font-size-lg)}
+  .how-to-illustration{min-height:150px;margin:var(--space-2) 0}
+  .how-to-card .pixel-preview,.how-to-reveal-art img{width:min(100%,200px)}
+  .how-to-guess-art{gap:var(--space-2)}
+  .how-to-mini-options{gap:4px}
+  .how-to-mini-options span{padding:5px 6px;font-size:var(--font-size-sm)}
+  .how-to-reveal-art{gap:var(--space-2)}
+  .how-to-actions{margin-top:var(--space-3)}
+  .how-to-actions .button{min-height:48px}
+}
+@media(max-width:599px){
+  .how-to-screen{padding-bottom:88px}
+  .how-to-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-2);margin-top:var(--space-2)}
+  .how-to-card:last-child{grid-column:1/-1}
+  .how-to-actions{padding:10px 20px calc(12px + env(safe-area-inset-bottom))}
+  .how-to-actions .button{min-height:46px}
+}
