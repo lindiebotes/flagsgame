@@ -37,7 +37,7 @@
 .settings-link:hover{background:var(--color-accent-hover)}
 .game-page footer a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 .game-page footer a:hover{color:var(--color-action-text)}
-.intro{padding:28px 0 18px}
+.intro{padding:28px 0 26px}
 .intro h1{font-size:clamp(calc(var(--font-size-base) * 1.75),3.6vw,calc(var(--font-size-base) * 2.5));line-height:1.08;margin:0 0 10px}
 .intro p{padding:10px 16px;font-size:calc(var(--font-size-base) * 0.875);line-height:1.4}
 .game-card{max-width:620px}
@@ -160,7 +160,7 @@
 .answer-format-section .answer-format{margin-top:0}
 @media(max-width:480px){.answer-format-section{margin-top:var(--space-3);padding-top:var(--space-3)}.answer-format-section::before{left:-14px;right:-14px}}
 @media(min-width:851px){
-  .game-page:has(.intro-title .settings-link){min-height:100svh;display:flex;flex-direction:column}
+  .game-page:has(.intro-title .settings-link){min-height:100svh;display:flex;flex-direction:column;justify-content:center}
   .game-page:has(.intro-title .settings-link) .intro{width:100%;margin-top:auto}
   .game-page:has(.intro-title .settings-link) .game-card{flex:none}
   .game-page:has(.intro-title .settings-link) footer{width:100%;margin-bottom:auto}
