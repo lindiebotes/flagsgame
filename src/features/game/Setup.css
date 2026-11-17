@@ -47,20 +47,20 @@
   .setup-bar .button{width:calc((100% - var(--space-4))/2)}
 }
 @media(min-width:851px){
-  .game-page:has(.setup){--font-size-selection-label:.9375rem;--text-selection-label:var(--font-weight-bold) var(--font-size-selection-label)/1.2 var(--font-family-body)}
-  .setup{gap:var(--space-5);padding:var(--space-5)}
-  .setup-heading{margin-bottom:var(--space-2)}
-  .setup-levels,.game-page .setup-packs{gap:var(--space-3)}
-  .setup-levels .level-option{min-height:112px;gap:var(--space-3);padding:var(--space-2)}
-  .setup-levels .level-preview{height:36px}
-  .answer-format-option{min-height:46px;padding:var(--space-2)}
+  .game-page:has(.setup){--font-size-selection-label:.9rem;--text-selection-label:var(--font-weight-bold) var(--font-size-selection-label)/1.2 var(--font-family-body);--font-size-section-heading:1.0125rem;--text-section-heading:var(--font-weight-regular) var(--font-size-section-heading)/1.2 var(--font-family-display)}
+  .setup{gap:1.35rem;padding:1.35rem}
+  .setup-heading{margin-bottom:.45rem}
+  .setup-levels,.game-page .setup-packs{gap:.675rem}
+  .setup-levels .level-option{min-height:100px;gap:.675rem;padding:.45rem}
+  .setup-levels .level-preview{height:32px}
+  .answer-format-option{min-height:41px;padding:.45rem}
 }
 @media(min-width:851px) and (max-height:760px){
-  .setup{gap:var(--space-3);padding:var(--space-4)}
-  .setup-heading{margin-bottom:var(--space-1)}
-  .setup-levels,.game-page .setup-packs{gap:var(--space-2)}
-  .setup-levels .level-option{min-height:88px;gap:var(--space-1);padding:var(--space-1)}
+  .setup{gap:1.1rem;padding:1.2rem}
+  .setup-heading{margin-bottom:.35rem}
+  .setup-levels,.game-page .setup-packs{gap:.5rem}
+  .setup-levels .level-option{min-height:90px;gap:.45rem;padding:.35rem}
   .setup-levels .level-preview{height:28px}
-  .answer-format-option{min-height:40px;padding:var(--space-1)}
+  .answer-format-option{min-height:38px;padding:.35rem}
   .setup-bar .button{min-height:44px;padding-block:12px}
 }
