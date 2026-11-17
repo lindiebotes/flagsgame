@@ -27,22 +27,36 @@
 .button:focus-visible{outline:2px solid var(--color-text);outline-offset:2px}
 .button--primary:active:not(:disabled){transform:translate(2px,2px)}
 
-@media(max-width:599px){
-  .game-page:has(.setup){min-height:0;padding:0 20px 100px}
+@media(max-width:650px){
+  .game-page:has(.setup){width:auto;max-width:100%;min-width:0;min-height:0;padding:0 20px 100px;overflow-x:clip}
+  .game-page:has(.setup) .intro-title h1{min-width:0;font-size:1.3rem;overflow-wrap:normal}
+  .game-page:has(.setup) .intro-title .header-actions{gap:4px;flex:none}
+  .game-page:has(.setup) .intro-title .header-button{width:32px;height:32px}
   .game-page:has(.setup) .intro{padding:var(--space-3) 0 var(--space-2)}
   .game-page:has(.setup) .intro h1{font-size:var(--font-size-xl);margin-bottom:var(--space-1)}
   .game-page:has(.setup) .intro p{padding:var(--space-2) var(--space-3);font:var(--text-body-small)}
+  .game-page:has(.setup) .game-card,.game-page:has(.setup) .card-bottom{width:100%;max-width:100%;min-width:0}
   .game-page:has(.setup) .game-card{border:0;background:transparent;box-shadow:none}
+  .setup,.setup-section,.setup-levels,.game-page .setup-packs{width:100%;max-width:calc(100vw - 40px);min-width:0}
+  .app-shell .game-page:has(.setup){display:block;width:100%;max-width:100%;min-width:0;margin:0;padding:0 20px 100px;box-sizing:border-box;overflow-x:clip}
+  .app-shell .game-page:has(.setup) .intro-title{width:100%;min-width:0}
+  .app-shell .game-page:has(.setup) .game-card,.app-shell .game-page:has(.setup) .card-bottom{width:100%;max-width:calc(100vw - 40px);min-width:0}
+  .app-shell .setup,.app-shell .setup-section,.app-shell .setup-levels,.app-shell .game-page .setup-packs{width:100%;max-width:calc(100vw - 40px);min-width:0}
   .setup{gap:18px;padding:0}
   .setup-heading{margin-bottom:8px;font-size:var(--font-size-sm)}
   .setup-levels,.setup-packs{gap:var(--space-2)}
+  .setup-levels{display:flex;flex-direction:column}
+  .app-shell .setup-levels{display:flex;flex-direction:column}
   .game-page .setup-packs{display:flex;flex-direction:column;grid-template-columns:1fr}
-  .level-option{min-height:72px}
+  .level-option{min-width:0;min-height:56px;flex-direction:row;justify-content:flex-start;gap:var(--space-3);padding:var(--space-2) var(--space-3);text-align:left;overflow:hidden}
+  .setup-levels .level-option{width:100%;max-width:100%;height:56px;min-height:56px}
+  .app-shell .setup-levels .level-option{width:100%;max-width:100%;height:56px;min-height:56px}
+  .level-option .level-preview{width:72px;height:36px;flex:none}
     .setup-bar{position:fixed;z-index:30;left:0;right:0;bottom:0;padding:12px 20px calc(16px + env(safe-area-inset-bottom));background:var(--color-background);border-top:0}
   .setup-bar .button{width:100%;height:48px;min-height:48px}
   .how-to-play{gap:var(--space-5)}
 }
-@media(min-width:600px){
+@media(min-width:651px){
   .setup-bar{justify-content:center}
   .setup-bar .button{width:calc((100% - var(--space-4))/2)}
 }
