@@ -28,6 +28,8 @@
 .button--primary:active:not(:disabled){transform:translate(2px,2px)}
 
 @media(max-width:650px){
+  .setup-card.is-selected{box-shadow:inset 0 0 0 1px var(--color-border-strong),3px 3px 0 #000}
+  .setup-card.is-selected:active{box-shadow:inset 0 0 0 1px var(--color-border-strong),1px 1px 0 #000}
   .game-page:has(.setup){width:auto;max-width:100%;min-width:0;min-height:0;padding:0 20px 100px;overflow-x:clip}
   .game-page:has(.setup) .intro-title h1{min-width:0;font-size:1.3rem;overflow-wrap:normal}
   .game-page:has(.setup) .intro-title .header-actions{gap:4px;flex:none}
