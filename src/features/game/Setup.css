@@ -4,6 +4,11 @@
 .setup{display:flex;flex-direction:column;gap:48px;padding:40px}
 .setup-section{min-width:0;margin:0;padding:0;border:0}
 .setup-heading{margin:0 0 16px;font:var(--text-section-heading);color:var(--color-text)}
+.setup-packs-heading{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-2)}
+.setup-see-all{flex:none;padding:0;border:0;background:none;color:var(--color-action-text);font:var(--text-small);font-weight:var(--font-weight-semibold);text-decoration:none;cursor:pointer}
+.setup-see-all:focus-visible{outline:2px solid var(--color-text);outline-offset:3px}
+.setup-hidden-selected{margin:var(--space-2) 0 0;font:var(--text-small);color:var(--color-text-muted)}
+.setup--browsing{padding:0}
 .setup-levels,.setup-packs{display:grid;gap:var(--space-4)}
 .setup-levels{grid-template-columns:repeat(3,minmax(0,1fr))}
 .game-page .setup-packs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-4)}
@@ -28,8 +33,8 @@
 .button--primary:active:not(:disabled){transform:translate(2px,2px)}
 
 @media(max-width:650px){
-  .setup-card.is-selected{box-shadow:inset 0 0 0 1px var(--color-border-strong),3px 3px 0 #000}
-  .setup-card.is-selected:active{box-shadow:inset 0 0 0 1px var(--color-border-strong),1px 1px 0 #000}
+  .setup-card.is-selected{box-shadow:inset 0 0 0 1px var(--color-border-strong),1.5px 1.5px 0 #000}
+  .setup-card.is-selected:active{box-shadow:inset 0 0 0 1px var(--color-border-strong)}
   .game-page:has(.setup){width:auto;max-width:100%;min-width:0;min-height:0;padding:0 20px 100px;overflow-x:clip}
   .game-page:has(.setup) .intro-title h1{min-width:0;font-size:1.3rem;overflow-wrap:normal}
   .game-page:has(.setup) .intro-title .header-actions{gap:4px;flex:none}
@@ -40,7 +45,9 @@
   .game-page:has(.setup) .game-card,.game-page:has(.setup) .card-bottom{width:100%;max-width:100%;min-width:0}
   .game-page:has(.setup) .game-card{border:0;background:transparent;box-shadow:none}
   .setup,.setup-section,.setup-levels,.game-page .setup-packs{width:100%;max-width:calc(100vw - 40px);min-width:0}
-  .app-shell .game-page:has(.setup){display:block;width:100%;height:100dvh;max-width:100%;min-width:0;min-height:0;margin:0;padding:calc(env(safe-area-inset-top) + 24px) 20px calc(100px + env(safe-area-inset-bottom));box-sizing:border-box;overflow:hidden}
+  .app-shell .game-page:has(.setup){display:block;width:100%;height:100svh;max-width:100%;min-width:0;min-height:0;margin:0;padding:calc(env(safe-area-inset-top) + 24px) 20px calc(100px + env(safe-area-inset-bottom));box-sizing:border-box;overflow-x:clip;overflow-y:auto}
+  /* A transformed card would make the fixed play bar anchor to the card, not the viewport. */
+  .is-route-transitioning .game-page:has(.setup) .game-card{animation:none}
   .app-shell .game-page:has(.setup) .intro-title{width:100%;min-width:0}
   .app-shell .game-page:has(.setup) .game-card,.app-shell .game-page:has(.setup) .card-bottom{width:100%;max-width:calc(100vw - 40px);min-width:0}
   .app-shell .setup,.app-shell .setup-section,.app-shell .setup-levels,.app-shell .game-page .setup-packs{width:100%;max-width:calc(100vw - 40px);min-width:0}
@@ -64,6 +71,15 @@
   .setup{gap:24px}
   .setup-heading{margin-bottom:6px}
   .setup-levels .level-option,.app-shell .setup-levels .level-option{height:64px;min-height:64px}
+}
+@media(max-width:650px){
+  .app-shell:has(.setup){min-height:100svh}
+  .app-shell .game-page:has(.setup){height:auto;min-height:0;padding-bottom:calc(var(--space-5) + env(safe-area-inset-bottom));overflow:visible}
+  .setup{gap:var(--space-6)}
+  .game-page .setup-packs{gap:var(--space-2)}
+  .app-shell .game-page:has(.setup:not(.setup--browsing)){padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+  .app-shell .game-page:has(.setup) .setup-bar{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:var(--space-2) max(20px,env(safe-area-inset-right)) calc(var(--space-3) + env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left));background:var(--color-background);border:0}
+  .setup--browsing{gap:0}
 }
 @media(min-width:651px){
   .setup-bar{justify-content:center}

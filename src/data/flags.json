@@ -2013,5 +2013,1016 @@
         "percent": 33
       }
     ]
+  },
+  {
+    "name": "Aichi",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Aichi_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.18,
+      136.91
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#a63c47",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Akita",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Akita_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      39.72,
+      140.1
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#900",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Aomori",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Aomori_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      40.82,
+      140.74
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#04773d",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Chiba",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Chiba_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.61,
+      140.12
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#006da5",
+        "percent": 50
+      },
+      {
+        "color": "#fece60",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Ehime",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Flag_of_Ehime_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      33.84,
+      132.77
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#0e6d46",
+        "percent": 33
+      },
+      {
+        "color": "#fff",
+        "percent": 33
+      },
+      {
+        "color": "#ffa600",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Fukui",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Fukui_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      36.07,
+      136.22
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#00006b",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Fukuoka",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Fukuoka_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      33.61,
+      130.42
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#0068b2",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Fukushima",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_Fukushima_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      37.75,
+      140.47
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#d84b24",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Gifu",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_Gifu_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.39,
+      136.72
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#ffffff",
+        "percent": 50
+      },
+      {
+        "color": "#00693f",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Gunma",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Gunma_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      36.39,
+      139.06
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#4c0f7b",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Hiroshima",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Hiroshima_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.4,
+      132.46
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#ab3748",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Hokkaido",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Hokkaido_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      43.06,
+      141.35
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#2f304e",
+        "percent": 33
+      },
+      {
+        "color": "#fff",
+        "percent": 33
+      },
+      {
+        "color": "#d13a43",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Hyogo",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_Hyogo_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.69,
+      135.18
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#01a0c7",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Ibaraki",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_Ibaraki_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      36.37,
+      140.47
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#3b4aa8",
+        "percent": 50
+      },
+      {
+        "color": "#ffffff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Ishikawa",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Ishikawa_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      36.59,
+      136.63
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#0088bb",
+        "percent": 50
+      },
+      {
+        "color": "#ffffff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Iwate",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Iwate_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      39.7,
+      141.15
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#145e70",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Kagawa",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Kagawa_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.34,
+      134.04
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#005933",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Kagoshima",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Flag_of_Kagoshima_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      31.56,
+      130.56
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 33
+      },
+      {
+        "color": "#bd0227",
+        "percent": 33
+      },
+      {
+        "color": "#ff0000",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Kanagawa",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Flag_of_Kanagawa_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.45,
+      139.64
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#f00",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Kochi",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Kochi_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      33.56,
+      133.53
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#7b171c",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Kumamoto",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Kumamoto_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      32.79,
+      130.74
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#931d23",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Kyoto",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Kyoto_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.02,
+      135.76
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#942b9d",
+        "percent": 33
+      },
+      {
+        "color": "#fff",
+        "percent": 33
+      },
+      {
+        "color": "#fc0",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Mie",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Mie_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.73,
+      136.51
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#090",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Miyagi",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Miyagi_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      38.27,
+      140.87
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#00594c",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Miyazaki",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flag_of_Miyazaki_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      31.91,
+      131.42
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#159939",
+        "percent": 50
+      },
+      {
+        "color": "#ffff01",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Nagano",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Nagano_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      36.65,
+      138.18
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#f66637",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Nagasaki",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Nagasaki_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      32.75,
+      129.88
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#000",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Nara",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Nara_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.69,
+      135.83
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#5b1c1f",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Niigata",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_Niigata_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      37.9,
+      139.02
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#ec1a24",
+        "percent": 50
+      },
+      {
+        "color": "#ffda00",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Oita",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Flag_of_Oita_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      33.24,
+      131.61
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#be0428",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Okayama",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Flag_of_Okayama_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.66,
+      133.93
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#650065",
+        "percent": 50
+      },
+      {
+        "color": "#fed61c",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Okinawa",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Okinawa_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      26.21,
+      127.68
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#e00",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Osaka",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Osaka_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.69,
+      135.52
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#33419a",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Saga",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Flag_of_Saga_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      33.25,
+      130.3
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#df4133",
+        "percent": 50
+      },
+      {
+        "color": "#006462",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Saitama",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Flag_of_Saitama_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.86,
+      139.65
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#ed1c24",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Shiga",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Shiga_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.0,
+      135.87
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#3e88c0",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Shimane",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Shimane_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.47,
+      133.05
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#ffffff",
+        "percent": 50
+      },
+      {
+        "color": "#333333",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Shizuoka",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Shizuoka_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.98,
+      138.38
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#004a8f",
+        "percent": 33
+      },
+      {
+        "color": "#f98f00",
+        "percent": 33
+      },
+      {
+        "color": "#fff",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Tochigi",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Flag_of_Tochigi_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      36.56,
+      139.88
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#76b138",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Tokushima",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Flag_of_Tokushima_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.07,
+      134.56
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#234794",
+        "percent": 50
+      },
+      {
+        "color": "#fcd400",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Tokyo",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Flag_of_Tokyo_Metropolis.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.69,
+      139.69
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#ffffff",
+        "percent": 50
+      },
+      {
+        "color": "#333333",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Tottori",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Flag_of_Tottori_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.5,
+      134.24
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#2e328c",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Toyama",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Flag_of_Toyama_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      36.7,
+      137.21
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#1a9431",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Wakayama",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Wakayama_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.23,
+      135.17
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#29437f",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Yamagata",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Flag_of_Yamagata_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      38.24,
+      140.36
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#006bbd",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Yamaguchi",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Yamaguchi_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      34.19,
+      131.47
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#693c34",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 50
+      }
+    ]
+  },
+  {
+    "name": "Yamanashi",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Yamanashi_Prefecture.svg",
+    "set": "Japanese prefectures",
+    "coordinates": [
+      35.66,
+      138.57
+    ],
+    "parentCountry": "Japan",
+    "palette": [
+      {
+        "color": "#906",
+        "percent": 33
+      },
+      {
+        "color": "#fff",
+        "percent": 33
+      },
+      {
+        "color": "#ffb300",
+        "percent": 33
+      }
+    ]
   }
 ]

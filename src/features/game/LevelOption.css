@@ -3,4 +3,4 @@
 .level-preview .pixel-preview{width:auto;height:100%;max-width:100%;max-height:100%;object-fit:contain}
 .level-label{font:var(--text-selection-label)}
 @media(max-width:650px){.level-option{gap:4px;padding:6px}.level-preview{height:24px}.level-label{font-size:calc(var(--font-size-base) * .875)}}
-@media(max-width:650px){.app-shell .setup-levels .level-option.level-option{height:auto;min-height:0;padding-top:var(--space-5);padding-bottom:var(--space-5)}}
+@media(max-width:650px){.app-shell .setup-levels .level-option.level-option{height:auto;min-height:0;padding-top:var(--space-4);padding-bottom:var(--space-4)}}

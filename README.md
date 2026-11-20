@@ -1,4 +1,4 @@
-# single-page-flag
+# Pixel flags
 
 An Arca project created with React and Vite.
 

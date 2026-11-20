@@ -1,4 +1,4 @@
-# Single Page Flag
+# Pixel flags
 
 ## Product summary
 
