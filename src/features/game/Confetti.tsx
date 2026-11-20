@@ -2,7 +2,7 @@ import {useEffect,useRef} from 'react';
 import {prefersReducedMotion} from '../../lib/settings';
 import './Confetti.css';
 
-const COLORS=['#e6fb45','#35221d','#cfd3f4','#3a7d4e','#a45a50','#ffffff'];
+const COLORS=['#e6fb45','#202020','#cfd3f4','#3a7d4e','#c62828','#ffffff'];
 const COUNT=140,DURATION=4500;
 
 // A short burst of falling confetti drawn on a canvas that never blocks clicks.

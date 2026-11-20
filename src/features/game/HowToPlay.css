@@ -34,7 +34,8 @@
   .how-to-screen{padding-bottom:100px}
   .how-to-actions{position:fixed;z-index:30;left:0;right:0;bottom:0;margin:0;padding:12px 20px calc(16px + env(safe-area-inset-bottom));background:var(--color-background);border-top:0}
   .how-to-actions .button{width:100%;min-width:0}
-  .app-shell .game-page:has(.how-to-screen) .how-to-actions{padding-bottom:calc(24px + env(safe-area-inset-bottom))}
+  .app-shell .game-page:has(.how-to-screen) .how-to-actions{padding-bottom:calc(var(--space-3) + env(safe-area-inset-bottom))}
+  .app-shell .game-page:has(.how-to-screen) .how-to-actions .button{height:48px;min-height:48px}
 }
 @media(min-width:901px){.how-to-card .pixel-preview{width:min(100%,280px)}.how-to-reveal-art img{width:min(100%,280px)}.how-to-illustration{min-height:220px}}
 @media(min-width:651px) and (max-width:900px){.how-to-card:last-child{grid-column:1/-1}}

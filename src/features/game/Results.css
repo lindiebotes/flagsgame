@@ -1,0 +1,30 @@
+.final-results .results-summary{position:relative;display:flex;flex-direction:column;align-items:center;padding:12px 52px 14px;margin-bottom:16px}
+.final-results .result-kicker{margin:0;font:var(--font-weight-medium) var(--font-size-base)/1.2 var(--font-family-body);letter-spacing:normal}
+.final-results .result-count{margin-top:6px;font:var(--font-weight-regular) 32px/1.15 var(--font-family-display)}
+.final-results .round-review{overflow-y:auto;overscroll-behavior:contain}
+.final-results .round-review li{display:flex;align-items:center;gap:10px;min-width:0}
+.final-results .review-mark-column{display:flex;flex:none;align-self:center}
+.final-results .review-main{display:flex;flex:1;min-width:0;align-items:flex-start;flex-direction:column;gap:2px}
+.final-results .review-name{display:block;max-width:100%;overflow-wrap:anywhere}
+.final-results .review-guess{font:var(--text-supporting-caption);color:var(--color-text-supporting);overflow-wrap:anywhere;text-align:left}
+.final-results .review-hint{color:var(--color-correct-later)}
+.final-results .review-capital{flex:0 1 auto;max-width:36%;margin-left:auto;color:var(--color-text-supporting);font:var(--text-supporting-caption);text-align:right;overflow-wrap:anywhere}
+.final-results .results-actions{flex-direction:column;gap:var(--space-2)}
+.final-results .results-actions .button--primary{width:100%;min-width:0}
+@media(max-width:650px){
+  .game-page:has(.final-results){position:fixed;inset:0;width:100%;height:100dvh;min-height:0;overflow:hidden;padding:calc(env(safe-area-inset-top) + 20px) 20px calc(84px + env(safe-area-inset-bottom))}
+  .game-page:has(.final-results) .game-card,.game-page:has(.final-results) .card-bottom{min-height:0}
+  .game-page:has(.final-results) .game-card{flex:1}
+  .final-results{height:100%;display:flex;flex-direction:column;padding:4px 0 0}
+  .final-results .results-summary{flex:none;min-height:96px;padding:4px 48px 12px;margin-bottom:var(--space-3)}
+  .final-results .results-close{top:calc(env(safe-area-inset-top) + 20px);right:max(20px,env(safe-area-inset-right));width:32px;height:32px}
+  .final-results .result-count{font-size:28px}
+  .final-results .round-review{flex:1;min-height:0;margin:2px 0 0}
+  .final-results .round-review li{padding-block:8px}
+  .final-results .round-review .review-flag{width:44px;height:29px}
+  .final-results .review-name{font-size:var(--font-size-small)}
+  .final-results .review-guess,.final-results .review-capital{font-size:var(--font-size-points);line-height:1.2}
+  .final-results .results-actions{flex-direction:column;gap:var(--space-2);padding:var(--space-2) max(20px,env(safe-area-inset-right)) calc(var(--space-3) + env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left))}
+  .final-results .results-actions .button--primary{width:100%;height:48px;min-height:48px}
+}
+@media(min-width:651px){.final-results .results-close{position:absolute;top:0;right:0}.final-results .round-review{max-height:calc(100dvh - 300px)}}

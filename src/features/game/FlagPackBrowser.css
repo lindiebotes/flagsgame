@@ -6,6 +6,7 @@
 .pack-browser-close:focus-visible,.pack-browser-search input:focus-visible{outline:2px solid var(--color-text);outline-offset:2px}
 .pack-browser-search{display:grid;gap:var(--space-2);font:var(--text-selection-label)}
 .pack-browser-search input{width:100%;min-width:0;padding:var(--space-3);border:1px solid var(--color-border-strong);border-radius:0;background:var(--color-surface);color:var(--color-text);font:var(--text-body)}
+.pack-browser-search input::placeholder{font:var(--text-input-hint);opacity:1;color:var(--color-text-muted)}
 .pack-browser-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-3)}
 .pack-browser-empty{margin:0;font:var(--text-body);color:var(--color-text-muted)}
 @media(prefers-reduced-motion:no-preference){
