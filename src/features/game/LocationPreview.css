@@ -5,7 +5,8 @@
 .location-pin{display:grid;place-items:center;width:36px;height:36px;padding:0;border:1px solid var(--color-border-strong);border-radius:var(--radius-pill);background:var(--color-surface);color:var(--color-text);cursor:pointer}
 .location-pin:hover,.location-pin:focus-visible{background:var(--color-selected)}
 .location-pin:focus-visible,.map-close:focus-visible{outline:2px solid var(--color-text);outline-offset:2px}
-.map-popover{position:absolute;z-index:20;top:calc(100% + 8px);right:0;width:min(320px,calc(100vw - 40px));padding:var(--space-2);background:var(--color-surface);border:1px solid var(--color-border-strong);box-shadow:var(--shadow-lg);text-align:left;color:var(--color-text)}
+.map-scrim{position:fixed;inset:0;z-index:59;background:color-mix(in srgb,var(--color-text) 32%,transparent)}
+.map-popover{position:fixed;z-index:60;left:50%;transform:translateX(-50%);width:min(320px,calc(100vw - 40px));overflow:auto;padding:var(--space-2);background:var(--color-surface);border:1px solid var(--color-border-strong);box-shadow:var(--shadow-lg);text-align:left;color:var(--color-text)}
 .map-popover-header{display:flex;justify-content:space-between;align-items:center;gap:var(--space-2);margin-bottom:var(--space-2);font:var(--text-label)}
 .map-close{display:grid;place-items:center;flex:none;width:30px;height:30px;padding:0;border:1px solid var(--color-border-strong);border-radius:50%;background:transparent;color:var(--color-text);font-size:22px;line-height:1;cursor:pointer}
 .map-frame{position:relative;min-height:190px;background:var(--color-stage)}

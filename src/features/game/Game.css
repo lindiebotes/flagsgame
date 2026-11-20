@@ -140,9 +140,7 @@
 .game-page--playing footer{margin-top:var(--space-3)}
 }
 @media(prefers-reduced-motion:no-preference){
-  .is-route-transitioning .game-page .intro h1{animation:game-route-enter 420ms ease-out both}
   .is-route-transitioning .game-page .intro p{animation:game-route-enter 420ms 55ms ease-out both}
-  .is-route-transitioning .game-page .game-card{animation:game-route-enter 420ms 110ms ease-out both}
   @keyframes game-route-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 }
 .set-heading p{font:var(--text-supporting-caption)}

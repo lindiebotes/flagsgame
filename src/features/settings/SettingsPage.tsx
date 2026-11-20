@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import {loadSettings,prefersReducedMotion,saveSettings} from '../../lib/settings';
 import {SettingToggle} from './SettingToggle';
+import {CloseIcon} from '../../components/ui/CloseIcon';
 import './SettingsPage.css';
 
 export function SettingsPage(){
@@ -11,7 +12,7 @@ export function SettingsPage(){
     saveSettings(next);
   };
   return <main className="settings-page">
-    <section className="settings-intro"><div className="settings-title"><h1>Settings</h1><a className="settings-close" href="#/" aria-label="Close settings"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg></a></div><p>Changes save instantly</p></section>
+    <section className="settings-intro"><div className="settings-title"><h1>Settings</h1><a className="settings-close" href="#/" aria-label="Close settings"><CloseIcon/></a></div><p>Changes save instantly</p></section>
     <section className="settings-card" aria-label="Gameplay settings">
       <div className="settings-heading"><h2>Gameplay</h2></div>
       <SettingToggle name="Extra guesses" description="Medium gets 3 tries per flag. Off means one guess only." checked={settings.extraGuesses} onChange={extraGuesses=>update({extraGuesses})}/>

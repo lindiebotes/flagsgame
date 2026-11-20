@@ -12,7 +12,7 @@
 @media(min-width:651px) and (max-width:850px){.settings-card{box-shadow:var(--shadow-card)}}
 .settings-title{display:flex;align-items:flex-start;gap:var(--space-3)}
 .settings-close{display:grid;place-items:center;width:44px;height:44px;flex:none;margin-left:auto;border:2px solid var(--color-border-strong);border-radius:50%;background:transparent;color:var(--color-text)}
-.settings-close:hover{background:var(--color-selected)}
+.settings-close:hover{background:var(--color-accent)}
 .settings-close{view-transition-name:settings-control}
 .settings-close:focus-visible{outline:2px solid var(--color-text);outline-offset:2px}
 @media(min-width:651px) and (max-width:850px){.settings-title{max-width:620px;margin-inline:auto}}
@@ -26,7 +26,6 @@
 @media(max-width:480px){.settings-page{padding-inline:16px}.settings-intro{padding:18px 0 12px}.settings-intro h1{font-size:calc(var(--font-size-base) * 2);margin-bottom:6px}.settings-intro p{font-size:calc(var(--font-size-base) * .75);padding:8px 10px}}
 @media(max-width:480px){.settings-intro{padding-top:var(--space-5)}.settings-intro h1{font-size:var(--font-size-page-heading)}.settings-heading h2{font:var(--text-section-heading)}}
 @media(prefers-reduced-motion:no-preference){
-  .is-route-transitioning .settings-intro h1{animation:settings-route-enter 420ms ease-out both}
   .is-route-transitioning .settings-intro p{animation:settings-route-enter 420ms 55ms ease-out both}
   .is-route-transitioning .settings-card{animation:settings-route-enter 420ms 110ms ease-out both}
   .is-route-transitioning .setting-toggle{animation:settings-route-enter 420ms 170ms ease-out both}
@@ -38,4 +37,4 @@
 .settings-intro p{font:var(--text-body)}
 .settings-page .settings-intro p{padding:0;background:transparent;color:var(--color-text-supporting);font:var(--text-body)}
 .settings-card{box-shadow:var(--shadow-card)}
-@media(max-width:650px){.settings-page{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}}
+@media(max-width:650px){.settings-page{padding-top:env(safe-area-inset-top);padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}.settings-intro{padding-top:var(--space-5)}.settings-close{width:32px;height:32px}.settings-close:hover{background:var(--color-accent)}}

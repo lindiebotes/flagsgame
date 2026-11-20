@@ -8,6 +8,12 @@
 .setup-see-all{flex:none;padding:0;border:0;background:none;color:var(--color-action-text);font:var(--text-small);font-weight:var(--font-weight-semibold);text-decoration:none;cursor:pointer}
 .setup-see-all:focus-visible{outline:2px solid var(--color-text);outline-offset:3px}
 .setup-hidden-selected{margin:var(--space-2) 0 0;font:var(--text-small);color:var(--color-text-muted)}
+@media(prefers-reduced-motion:no-preference){
+  .setup:not(.setup--browsing) .setup-section{animation:setup-content-enter 420ms ease-out both}
+  .setup:not(.setup--browsing) .setup-section:nth-child(2){animation-delay:55ms}
+  .setup:not(.setup--browsing) .setup-section:nth-child(3){animation-delay:110ms}
+  @keyframes setup-content-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+}
 .setup--browsing{padding:0}
 .setup-levels,.setup-packs{display:grid;gap:var(--space-4)}
 .setup-levels{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -37,8 +43,9 @@
   .setup-card.is-selected:active{box-shadow:inset 0 0 0 1px var(--color-border-strong)}
   .game-page:has(.setup){width:auto;max-width:100%;min-width:0;min-height:0;padding:0 20px 100px;overflow-x:clip}
   .game-page:has(.setup) .intro-title h1{min-width:0;font-size:1.3rem;overflow-wrap:normal}
-  .game-page:has(.setup) .intro-title .header-actions{gap:4px;flex:none}
+  .game-page:has(.setup) .intro-title .header-actions{gap:var(--space-2);flex:none}
   .game-page:has(.setup) .intro-title .header-button{width:32px;height:32px}
+  .game-page:has(.setup) .intro-title .header-button svg{width:18px;height:18px}
   .game-page:has(.setup) .intro{padding:var(--space-3) 0 var(--space-2)}
   .game-page:has(.setup) .intro h1{font-size:var(--font-size-xl);margin-bottom:var(--space-1)}
   .game-page:has(.setup) .intro p{padding:var(--space-2) var(--space-3);font:var(--text-body-small)}

@@ -1,8 +1,8 @@
 import {useEffect,useRef,useState} from 'react';
-import {flushSync} from 'react-dom';
 import {Game} from './features/game/Game';
 import {SettingsPage} from './features/settings/SettingsPage';
 import {prefersReducedMotion} from './lib/settings';
+import {transitionScreen} from './lib/screenTransition';
 import './App.css';
 
 const readRoute=()=>window.location.hash==='#/settings'?'settings':'game';
@@ -14,8 +14,8 @@ function App(){
   const animationTimer=useRef<number|undefined>(undefined);
   useEffect(()=>{
     const onHash=()=>{
-      const update=()=>{flushSync(()=>{setTransitioning(true);setRoute(readRoute())});window.scrollTo(0,0);window.clearTimeout(animationTimer.current);animationTimer.current=window.setTimeout(()=>setTransitioning(false),700)};
-      if(document.startViewTransition&&!prefersReducedMotion()){document.startViewTransition(update)}else{update()}
+      const next=readRoute();
+      transitionScreen(()=>{setTransitioning(true);setRoute(next);window.clearTimeout(animationTimer.current);animationTimer.current=window.setTimeout(()=>setTransitioning(false),700)},next==='settings'?'forward':'back');
     };
     window.addEventListener('hashchange',onHash);
     return()=>{window.removeEventListener('hashchange',onHash);window.clearTimeout(animationTimer.current)};

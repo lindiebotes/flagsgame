@@ -1,6 +1,7 @@
 import {useEffect,useState,type ReactNode} from 'react';
 import {createPortal} from 'react-dom';
 import {Button} from '../../components/ui/Button';
+import {CloseIcon} from '../../components/ui/CloseIcon';
 import './Play.css';
 
 type Props={index:number;total:number;completed:('first'|'later'|'with-hint'|'missed')[];onQuit:()=>void;stage:ReactNode;feedback:ReactNode;answers:ReactNode;typed:boolean;hints?:ReactNode;action:ReactNode};
@@ -19,7 +20,7 @@ export function Play({index,total,completed,onQuit,stage,feedback,answers,typed,
         <span className="play-count">{index+1}/{total}</span>
          <span className="play-segments">{Array.from({length:total},(_,i)=><i key={i} className={completed[i]?`is-${completed[i]}`:i===index?'is-current':undefined}/>)}</span>
       </div>
-      <button type="button" className="play-quit" aria-label="Quit game" onClick={()=>setConfirming(true)}><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3 3l12 12M15 3 3 15" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/></svg></button>
+      <button type="button" className="play-quit" aria-label="Quit game" onClick={()=>setConfirming(true)}><CloseIcon/></button>
     </div>
     <section className="play-card" aria-label="Flag challenge">
       <div className="play-stage">{stage}</div>

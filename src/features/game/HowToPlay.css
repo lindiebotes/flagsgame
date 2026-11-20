@@ -3,6 +3,13 @@
 .how-to-screen{width:100%;margin:0;padding:0 0 32px}
 .how-to-header{position:relative;margin-bottom:24px}
 .how-to-header p{margin:0;color:var(--color-text-supporting);font:var(--text-body)}
+@media(prefers-reduced-motion:no-preference){
+  .how-to-header{animation:how-to-content-enter 420ms ease-out both}
+  .how-to-card{animation:how-to-content-enter 420ms 55ms ease-out both}
+  .how-to-card:nth-child(2){animation-delay:110ms}
+  .how-to-card:nth-child(3){animation-delay:165ms}
+  @keyframes how-to-content-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+}
 .how-to-close{position:absolute;top:0;right:0;display:grid;place-items:center;width:44px;height:44px;padding:0;border:2px solid var(--color-border-strong);border-radius:50%;background:transparent;color:var(--color-text);cursor:pointer}
 .how-to-close:hover{background:var(--color-selected)}
 .how-to-close:focus-visible{outline:2px solid var(--color-text);outline-offset:2px}
@@ -17,6 +24,7 @@
   .how-to-mini-options span{padding:7px 8px;font-size:var(--font-size-small)}
 }
 @media(max-width:650px){
+  .game-page:has(.how-to-screen) .intro-title .header-button{width:32px;height:32px}
   .how-to-screen{padding:0 0 24px}
   .how-to-header{margin-bottom:12px}
   .how-to-cards{grid-template-columns:1fr;gap:16px;margin-top:18px}

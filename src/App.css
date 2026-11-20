@@ -2,6 +2,7 @@
 .app-shell:has(.game-page--playing){height:100dvh;min-height:0;overflow:hidden;overscroll-behavior:none}
 html:has(.game-page--playing),body:has(.game-page--playing){height:100dvh;overflow:hidden;overscroll-behavior:none}
 .reduce-motion *, .reduce-motion *::before, .reduce-motion *::after{animation-duration:.01ms!important;animation-delay:0ms!important;transition-duration:0ms!important;scroll-behavior:auto!important}
+html.pack-transition-forward .settings-link,html.pack-transition-forward .settings-close,html.pack-transition-back .settings-link,html.pack-transition-back .settings-close{view-transition-name:none}
 @media(prefers-reduced-motion:no-preference){
   ::view-transition-old(settings-control){animation:settings-icon-out 300ms ease both}
   ::view-transition-new(settings-control){animation:settings-icon-in 300ms ease both}
@@ -9,4 +10,16 @@ html:has(.game-page--playing),body:has(.game-page--playing){height:100dvh;overfl
   ::view-transition-new(root){animation-duration:200ms}
   @keyframes settings-icon-out{to{opacity:0;transform:rotate(90deg) scale(.8)}}
   @keyframes settings-icon-in{from{opacity:0;transform:rotate(-90deg) scale(.8)}to{opacity:1;transform:rotate(0) scale(1)}}
+}
+@media(max-width:650px) and (prefers-reduced-motion:no-preference){
+  html.pack-transition-forward::view-transition-old(root){animation:none}
+  html.pack-transition-forward::view-transition-new(root){animation:screen-slide-in 280ms ease both}
+  html.pack-transition-back::view-transition-old(root){animation:screen-slide-out 280ms ease both;z-index:2}
+  html.pack-transition-back::view-transition-new(root){animation:none;z-index:1}
+  html.pack-transition-forward::view-transition-group(settings-control),html.pack-transition-back::view-transition-group(settings-control){animation:none;visibility:hidden}
+  @keyframes screen-slide-in{from{transform:translateX(100%)}}
+  @keyframes screen-slide-out{to{transform:translateX(100%)}}
+}
+@media(min-width:651px){
+  html.pack-transition-forward::view-transition-old(root),html.pack-transition-forward::view-transition-new(root),html.pack-transition-back::view-transition-old(root),html.pack-transition-back::view-transition-new(root){animation:none}
 }
