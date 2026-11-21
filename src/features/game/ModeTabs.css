@@ -1,0 +1,25 @@
+.mode-tabs{display:flex;width:100%;max-width:620px;margin:-8px auto var(--space-4);border-bottom:1px solid var(--color-border-subtle);color:var(--color-text)}
+.mode-tabs button{flex:1;min-width:0;min-height:44px;padding:var(--space-2) 0;border:0;border-bottom:3px solid transparent;background:transparent;color:var(--color-text-supporting);font:var(--text-selection-label);cursor:pointer}
+.mode-tabs button[aria-pressed=true]{border-color:var(--color-text);color:var(--color-text)}
+.mode-tabs button:focus-visible{outline:2px solid var(--color-text);outline-offset:3px}
+.mode-panel[hidden]{display:none}
+.app-shell:has(.mode-tabs){overflow-anchor:none}
+.game-page .card-bottom:has(>.mode-panel>.setup){padding:0}
+.game-page:has(.setup--browsing) .mode-tabs{display:none}
+@media(min-width:851px){.game-page:has(.mode-tabs){justify-content:flex-start}.game-page:has(.mode-tabs) .intro{margin-top:0}}
+@media(max-width:650px){
+  .mode-tabs{margin:0 auto var(--space-2)}
+  .app-shell .game-page:has(.mode-tabs):has(.setup:not(.setup--browsing)){display:flex;flex-direction:column;min-height:100svh;padding-bottom:0}
+  .game-page:has(.mode-tabs) .intro{width:100%}
+  .game-page:has(.mode-tabs) .game-card,.game-page:has(.mode-tabs) .card-bottom,.game-page:has(.mode-tabs) .mode-panel:not([hidden]){display:flex;flex:1;flex-direction:column;min-height:0}
+  .game-page:has(.mode-tabs) .mode-panel:not([hidden])>.setup{flex:1;gap:var(--space-3)}
+  .app-shell .game-page:has(.mode-tabs) .setup-levels .level-option.level-option{padding-top:10px;padding-bottom:10px}
+  .game-page:has(.mode-tabs) .setup-card.flag-set-option{min-height:44px}
+  .app-shell .game-page:has(.mode-tabs) .setup-bar{position:sticky;bottom:0;margin-top:auto;padding:var(--space-2) 0 calc(var(--space-3) + env(safe-area-inset-bottom))}
+}
+@media(max-width:650px) and (min-height:761px){
+  html:has(.mode-tabs):not(:has(.setup--browsing)),body:has(.mode-tabs):not(:has(.setup--browsing)){height:100%;overflow:hidden}
+  .app-shell:has(.mode-tabs):not(:has(.setup--browsing)){height:100svh;min-height:0;overflow:visible}
+  .game-page:has(.mode-tabs) .mode-panel:not([hidden])>.setup{gap:var(--space-2)}
+  .app-shell .game-page:has(.mode-tabs) .setup-levels .level-option.level-option{padding-top:8px;padding-bottom:8px}
+}
