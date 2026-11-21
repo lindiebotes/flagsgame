@@ -8,8 +8,8 @@ export function loadSetup(validSets:string[]):SetupPrefs{
     const raw=window.localStorage.getItem(KEY);
     if(!raw)return defaultSetup;
     const parsed=JSON.parse(raw) as Partial<SetupPrefs>;
-    const migratedSets=Array.isArray(parsed.sets)?parsed.sets.map(set=>set==='World flags'?'Common flags':set==='Rare countries'?'Rare flags':set):[];
-    const sets=migratedSets.filter(set=>validSets.includes(set));
+    const migratedSets=Array.isArray(parsed.sets)?parsed.sets.map(set=>set==='World flags'?'Common flags':set==='Rare countries'?'Rare flags':set==='Territories and islands'?'Rare flags':set):[];
+    const sets=[...new Set(migratedSets)].filter(set=>validSets.includes(set));
     return{
       level:parsed.level===2||parsed.level===3?parsed.level:1,
       sets:sets.length?sets:defaultSetup.sets,

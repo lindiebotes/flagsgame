@@ -11,3 +11,20 @@
 .flag-viewer figcaption{font-family:var(--font-family-display);font-size:var(--font-size-2xl);line-height:var(--line-height-tight)}
 .flag-viewer-capital{display:block;margin-top:var(--space-2);font:var(--text-body);color:var(--color-surface)}
 @media(max-width:650px){.flag-viewer{padding:var(--space-3)}.flag-viewer-content{gap:var(--space-2)}.flag-viewer-arrow{width:40px;height:40px}.flag-viewer figcaption{font-size:var(--font-size-xl)}}
+@keyframes flag-viewer-backdrop{from{background:rgba(0,0,0,0)}to{background:rgba(0,0,0,.9)}}
+@keyframes flag-viewer-pop{0%{opacity:0;transform:translateY(24px) scale(.82) rotate(-2deg)}60%{opacity:1}100%{opacity:1;transform:none}}
+@keyframes flag-viewer-caption{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes flag-viewer-controls{from{opacity:0}to{opacity:1}}
+.flag-viewer[open]::backdrop{animation:flag-viewer-backdrop .25s ease-out}
+.flag-viewer[open] figure img{animation:flag-viewer-pop .42s cubic-bezier(.2,.9,.25,1.15) both}
+.flag-viewer[open] figcaption{animation:flag-viewer-caption .3s ease-out .18s both}
+.flag-viewer[open] .flag-viewer-close,.flag-viewer[open] .flag-viewer-arrow{animation:flag-viewer-controls .3s ease-out .2s both}
+@media(prefers-reduced-motion:reduce){.flag-viewer[open]::backdrop,.flag-viewer[open] figure img,.flag-viewer[open] figcaption,.flag-viewer[open] .flag-viewer-close,.flag-viewer[open] .flag-viewer-arrow{animation:none}}
+.reduce-motion .flag-viewer[open] figure img,.reduce-motion .flag-viewer[open] figcaption{animation:none}
+@keyframes flag-viewer-backdrop-out{from{background:rgba(0,0,0,.9)}to{background:rgba(0,0,0,0)}}
+@keyframes flag-viewer-pop-out{from{opacity:1;transform:none}to{opacity:0;transform:translateY(24px) scale(.82) rotate(-2deg)}}
+@keyframes flag-viewer-fade-out{from{opacity:1}to{opacity:0}}
+.flag-viewer.is-closing::backdrop{animation:flag-viewer-backdrop-out .28s ease-in both}
+.flag-viewer.is-closing figure img{animation:flag-viewer-pop-out .28s cubic-bezier(.4,0,1,1) both}
+.flag-viewer.is-closing figcaption,.flag-viewer.is-closing .flag-viewer-close,.flag-viewer.is-closing .flag-viewer-arrow{animation:flag-viewer-fade-out .18s ease-in both}
+@media(prefers-reduced-motion:reduce){.flag-viewer.is-closing::backdrop,.flag-viewer.is-closing figure img,.flag-viewer.is-closing figcaption,.flag-viewer.is-closing .flag-viewer-close,.flag-viewer.is-closing .flag-viewer-arrow{animation:none}}

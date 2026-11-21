@@ -17,7 +17,8 @@
         "color": "#d00",
         "percent": 60
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Kenya",
@@ -145,7 +146,8 @@
         "color": "#171796",
         "percent": 32
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Ghana",
@@ -197,7 +199,8 @@
         "color": "#f9cf02",
         "percent": 2
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Cambodia",
@@ -241,7 +244,8 @@
         "color": "#0038a8",
         "percent": 44
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Lebanon",
@@ -265,7 +269,8 @@
         "color": "#00703c",
         "percent": 5
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "South Africa",
@@ -307,7 +312,7 @@
     "name": "Bermuda",
     "region": "North America",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bermuda.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "coordinates": [
       32.3,
       -64.8
@@ -401,7 +406,8 @@
         "color": "#009639",
         "percent": 20
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Liechtenstein",
@@ -425,7 +431,8 @@
         "color": "#ffd83d",
         "percent": 4
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "San Marino",
@@ -449,7 +456,8 @@
         "color": "#b08c3e",
         "percent": 4
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Andorra",
@@ -473,7 +481,8 @@
         "color": "#d50032",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Moldova",
@@ -497,7 +506,8 @@
         "color": "#cc092f",
         "percent": 32
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Comoros",
@@ -781,7 +791,8 @@
         "color": "#fff",
         "percent": 5
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Kiribati",
@@ -815,7 +826,7 @@
     "name": "Faroe Islands",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Denmark",
     "coordinates": [
       62.0,
@@ -840,7 +851,7 @@
     "name": "Åland Islands",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Flag_of_%C3%85land.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Finland",
     "coordinates": [
       60.2,
@@ -865,7 +876,7 @@
     "name": "Isle of Man",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Flag_of_the_Isle_of_Mann.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Crown Dependency",
     "coordinates": [
       54.24,
@@ -890,7 +901,7 @@
     "name": "Shetland",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Shetland.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "United Kingdom",
     "coordinates": [
       60.32,
@@ -911,7 +922,7 @@
     "name": "Sardinia",
     "region": "Europe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Sardinia.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Italy",
     "coordinates": [
       40.1,
@@ -936,7 +947,7 @@
     "name": "Zanzibar",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Zanzibar.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Tanzania",
     "coordinates": [
       -6.16,
@@ -969,7 +980,7 @@
     "name": "Anjouan",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Flag_of_Anjouan_%28official%29.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Comoros",
     "coordinates": [
       -12.2,
@@ -994,7 +1005,7 @@
     "name": "Tristan da Cunha",
     "region": "Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Tristan_da_Cunha.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "United Kingdom",
     "coordinates": [
       -37.1,
@@ -1023,7 +1034,7 @@
     "name": "Greenland",
     "region": "North America",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_Greenland.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Denmark",
     "coordinates": [
       72,
@@ -1038,13 +1049,14 @@
         "color": "#c8102e",
         "percent": 50
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Bonaire",
     "region": "Caribbean",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Flag_of_Bonaire.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Caribbean Netherlands",
     "coordinates": [
       12.18,
@@ -1077,7 +1089,7 @@
     "name": "Saba",
     "region": "Caribbean",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Saba.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Caribbean Netherlands",
     "coordinates": [
       17.63,
@@ -1106,7 +1118,7 @@
     "name": "Niue",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Niue.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "New Zealand (free association)",
     "coordinates": [
       -19.05,
@@ -1135,7 +1147,7 @@
     "name": "Tokelau",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_of_Tokelau.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "New Zealand",
     "coordinates": [
       -9.2,
@@ -1160,7 +1172,7 @@
     "name": "French Polynesia",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_French_Polynesia.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "France",
     "coordinates": [
       -17.65,
@@ -1179,13 +1191,14 @@
         "color": "#ffcc00",
         "percent": 5
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Bougainville",
     "region": "Oceania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_Bougainville.svg",
-    "set": "Territories and islands",
+    "set": "Rare flags",
     "parentCountry": "Papua New Guinea",
     "coordinates": [
       -6.2,
@@ -1232,7 +1245,8 @@
         "color": "#ed2939",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Germany",
@@ -1256,7 +1270,8 @@
         "color": "#ffce00",
         "percent": 34
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Italy",
@@ -1280,7 +1295,8 @@
         "color": "#ce2b37",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Spain",
@@ -1300,7 +1316,8 @@
         "color": "#f1bf00",
         "percent": 50
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Japan",
@@ -1364,7 +1381,8 @@
         "color": "#138808",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "South Korea",
@@ -1436,7 +1454,8 @@
         "color": "#ffffff",
         "percent": 34
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Mexico",
@@ -1460,7 +1479,8 @@
         "color": "#ce1126",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Canada",
@@ -1480,7 +1500,8 @@
         "color": "#ffffff",
         "percent": 50
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Egypt",
@@ -1504,7 +1525,8 @@
         "color": "#000000",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Nigeria",
@@ -1524,7 +1546,8 @@
         "color": "#ffffff",
         "percent": 34
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Morocco",
@@ -1684,7 +1707,8 @@
         "color": "#bf0a30",
         "percent": 30
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "California",
@@ -1708,7 +1732,8 @@
         "color": "#000000",
         "percent": 5
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Alaska",
@@ -1752,7 +1777,8 @@
         "color": "#00247d",
         "percent": 30
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "New Mexico",
@@ -1920,7 +1946,8 @@
         "color": "#ffffff",
         "percent": 5
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Ohio",
@@ -2012,7 +2039,8 @@
         "color": "#ffffff",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Aichi",
@@ -3075,7 +3103,8 @@
         "color": "#ce1126",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Bhutan",
@@ -3123,7 +3152,8 @@
         "color": "#cc092f",
         "percent": 32
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Egypt",
@@ -3147,7 +3177,8 @@
         "color": "#000000",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Serbia",
@@ -3171,7 +3202,8 @@
         "color": "#ffffff",
         "percent": 33
       }
-    ]
+    ],
+    "stripes": true
   },
   {
     "name": "Kiribati",
@@ -3482,6 +3514,620 @@
       {
         "color": "#9063cd",
         "percent": 0.4
+      }
+    ]
+  },
+  {
+    "name": "Tonga",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      -21.18,
+      -175.2
+    ],
+    "palette": [
+      {
+        "color": "#c10000",
+        "percent": 72
+      },
+      {
+        "color": "#fff",
+        "percent": 28
+      }
+    ]
+  },
+  {
+    "name": "Samoa",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      -13.76,
+      -172.1
+    ],
+    "palette": [
+      {
+        "color": "#ce1126",
+        "percent": 70
+      },
+      {
+        "color": "#002b7f",
+        "percent": 20
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Vanuatu",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Vanuatu.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      -15.38,
+      166.96
+    ],
+    "palette": [
+      {
+        "color": "#d21034",
+        "percent": 35
+      },
+      {
+        "color": "#009543",
+        "percent": 35
+      },
+      {
+        "color": "#000",
+        "percent": 20
+      },
+      {
+        "color": "#fdce12",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Tuvalu",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tuvalu.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      -8.52,
+      179.2
+    ],
+    "palette": [
+      {
+        "color": "#009fca",
+        "percent": 70
+      },
+      {
+        "color": "#012169",
+        "percent": 10
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      },
+      {
+        "color": "#c8102e",
+        "percent": 5
+      },
+      {
+        "color": "#ffd100",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Russia",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg",
+    "set": "Common flags",
+    "coordinates": [
+      61.5,
+      105.3
+    ],
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 33
+      },
+      {
+        "color": "#0039a6",
+        "percent": 34
+      },
+      {
+        "color": "#d52b1e",
+        "percent": 33
+      }
+    ],
+    "stripes": true
+  },
+  {
+    "name": "Marshall Islands",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_Marshall_Islands.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      7.13,
+      171.18
+    ],
+    "palette": [
+      {
+        "color": "#003893",
+        "percent": 55
+      },
+      {
+        "color": "#fff",
+        "percent": 25
+      },
+      {
+        "color": "#dd7500",
+        "percent": 20
+      }
+    ]
+  },
+  {
+    "name": "Micronesia",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      6.9,
+      158.2
+    ],
+    "palette": [
+      {
+        "color": "#75b2dd",
+        "percent": 90
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Solomon Islands",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_the_Solomon_Islands.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      -9.64,
+      160.16
+    ],
+    "palette": [
+      {
+        "color": "#0051ba",
+        "percent": 40
+      },
+      {
+        "color": "#215b33",
+        "percent": 40
+      },
+      {
+        "color": "#fcd116",
+        "percent": 15
+      },
+      {
+        "color": "#fff",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Djibouti",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Djibouti.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      11.83,
+      42.59
+    ],
+    "palette": [
+      {
+        "color": "#6ab2e7",
+        "percent": 40
+      },
+      {
+        "color": "#12ad2b",
+        "percent": 40
+      },
+      {
+        "color": "#fff",
+        "percent": 12
+      },
+      {
+        "color": "#d7141a",
+        "percent": 8
+      }
+    ]
+  },
+  {
+    "name": "Eritrea",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      15.18,
+      39.78
+    ],
+    "palette": [
+      {
+        "color": "#ea0437",
+        "percent": 45
+      },
+      {
+        "color": "#4189dd",
+        "percent": 25
+      },
+      {
+        "color": "#12ad2b",
+        "percent": 25
+      },
+      {
+        "color": "#ffc726",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Belize",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_of_Belize.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      17.19,
+      -88.5
+    ],
+    "palette": [
+      {
+        "color": "#003f87",
+        "percent": 70
+      },
+      {
+        "color": "#ce1126",
+        "percent": 20
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Suriname",
+    "region": "South America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Flag_of_Suriname.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      3.92,
+      -56.03
+    ],
+    "palette": [
+      {
+        "color": "#377e3f",
+        "percent": 40
+      },
+      {
+        "color": "#fff",
+        "percent": 20
+      },
+      {
+        "color": "#b40a2d",
+        "percent": 30
+      },
+      {
+        "color": "#ecc81d",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Turkmenistan",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      38.97,
+      59.56
+    ],
+    "palette": [
+      {
+        "color": "#00843d",
+        "percent": 75
+      },
+      {
+        "color": "#d22630",
+        "percent": 15
+      },
+      {
+        "color": "#fff",
+        "percent": 5
+      },
+      {
+        "color": "#ff9d00",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Tajikistan",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Tajikistan.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      38.86,
+      71.28
+    ],
+    "palette": [
+      {
+        "color": "#c00",
+        "percent": 30
+      },
+      {
+        "color": "#fff",
+        "percent": 40
+      },
+      {
+        "color": "#060",
+        "percent": 25
+      },
+      {
+        "color": "#f8c300",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_Saint-Pierre_and_Miquelon.svg",
+    "set": "Common flags",
+    "coordinates": [
+      46.83,
+      -56.3
+    ],
+    "palette": [
+      {
+        "color": "#00267f",
+        "percent": 60
+      },
+      {
+        "color": "#fff",
+        "percent": 20
+      },
+      {
+        "color": "#e8a31b",
+        "percent": 10
+      },
+      {
+        "color": "#c8102e",
+        "percent": 5
+      },
+      {
+        "color": "#ffd100",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "United States",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+    "set": "Common flags",
+    "coordinates": [
+      39.8,
+      -98.6
+    ],
+    "palette": [
+      {
+        "color": "#b22234",
+        "percent": 45
+      },
+      {
+        "color": "#fff",
+        "percent": 40
+      },
+      {
+        "color": "#3c3b6e",
+        "percent": 15
+      }
+    ],
+    "stripes": true
+  },
+  {
+    "name": "Greece",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg",
+    "set": "Common flags",
+    "coordinates": [
+      39.07,
+      21.82
+    ],
+    "palette": [
+      {
+        "color": "#0d5eaf",
+        "percent": 55
+      },
+      {
+        "color": "#fff",
+        "percent": 45
+      }
+    ],
+    "stripes": true
+  },
+  {
+    "name": "Poland",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg",
+    "set": "Common flags",
+    "coordinates": [
+      51.92,
+      19.15
+    ],
+    "palette": [
+      {
+        "color": "#fff",
+        "percent": 50
+      },
+      {
+        "color": "#dc143c",
+        "percent": 50
+      }
+    ],
+    "stripes": true
+  },
+  {
+    "name": "Thailand",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+    "set": "Common flags",
+    "coordinates": [
+      15.87,
+      100.99
+    ],
+    "palette": [
+      {
+        "color": "#a51931",
+        "percent": 33
+      },
+      {
+        "color": "#fff",
+        "percent": 33
+      },
+      {
+        "color": "#2d2a4a",
+        "percent": 34
+      }
+    ],
+    "stripes": true
+  },
+  {
+    "name": "Vietnam",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg",
+    "set": "Common flags",
+    "coordinates": [
+      14.06,
+      108.28
+    ],
+    "palette": [
+      {
+        "color": "#da251d",
+        "percent": 90
+      },
+      {
+        "color": "#ff0",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Philippines",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
+    "set": "Common flags",
+    "coordinates": [
+      12.88,
+      121.77
+    ],
+    "palette": [
+      {
+        "color": "#0038a8",
+        "percent": 35
+      },
+      {
+        "color": "#ce1126",
+        "percent": 35
+      },
+      {
+        "color": "#fff",
+        "percent": 22
+      },
+      {
+        "color": "#fcd116",
+        "percent": 8
+      }
+    ]
+  },
+  {
+    "name": "Chile",
+    "region": "South America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
+    "set": "Common flags",
+    "coordinates": [
+      -35.68,
+      -71.54
+    ],
+    "palette": [
+      {
+        "color": "#d52b1e",
+        "percent": 50
+      },
+      {
+        "color": "#fff",
+        "percent": 37
+      },
+      {
+        "color": "#0039a6",
+        "percent": 13
+      }
+    ],
+    "stripes": true
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
+    "set": "Rare flags",
+    "coordinates": [
+      0.19,
+      6.61
+    ],
+    "palette": [
+      {
+        "color": "#12ad2b",
+        "percent": 45
+      },
+      {
+        "color": "#ffce00",
+        "percent": 25
+      },
+      {
+        "color": "#d21034",
+        "percent": 25
+      },
+      {
+        "color": "#000",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg",
+    "set": "Common flags",
+    "coordinates": [
+      54.0,
+      -2.0
+    ],
+    "palette": [
+      {
+        "color": "#012169",
+        "percent": 40
+      },
+      {
+        "color": "#fff",
+        "percent": 35
+      },
+      {
+        "color": "#c8102e",
+        "percent": 25
       }
     ]
   }
