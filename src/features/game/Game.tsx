@@ -1,4 +1,5 @@
 import {useEffect,useLayoutEffect,useRef,useState} from 'react';
+import {SiteFooter} from '../../components/SiteFooter';
 import flags from '../../data/flags.json';
 import japanesePrefectureNames from '../../data/japanesePrefectureNames.json';
 import {Button} from '../../components/ui/Button';
@@ -33,7 +34,7 @@ const normalize=(value:string)=>value.normalize('NFD').replace(/[\u0300-\u036f]/
 const editDistance=(a:string,b:string)=>{const previous=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){let diagonal=previous[0];previous[0]=i;for(let j=1;j<=b.length;j++){const above=previous[j];previous[j]=Math.min(previous[j]+1,previous[j-1]+1,diagonal+(a[i-1]===b[j-1]?0:1));diagonal=above}}return previous[b.length]};
 const matches=(answer:string,name:string)=>{const a=normalize(answer),b=normalize(name);const japanese=(japanesePrefectureNames as Record<string,string>)[name];return a===b||(japanese&&(a===normalize(japanese)||(name!=='Hokkaido'&&a===normalize(japanese.slice(0,-1)))))||(b==='turkiye'&&a==='turkey')||(b==='aland islands'&&a==='aland')||(Math.min(a.length,b.length)>=5&&editDistance(a,b)<=(Math.min(a.length,b.length)>=8?2:1))};
 const shuffle=<T,>(array:T[])=>[...array].sort(()=>Math.random()-.5);
-const displaySetName=(set:string)=>set==='Territories and islands'?'Territory and island flags':set;
+const displaySetName=(set:string)=>set==='US state flags'?'US states':set==='Japanese regional'?'Japanese prefectures':set;
 const articleFlagNames=new Set(['Faroe Islands','Maldives','Cook Islands','Isle of Man','Åland Islands','Comoros']);
 const pluralFlagNames=new Set(['Faroe Islands','Maldives','Cook Islands','Åland Islands','Comoros']);
 const displayFlagName=(name:string)=>articleFlagNames.has(name)?`the ${name}`:name;
@@ -90,4 +91,4 @@ useEffect(()=>{if(!showResult)return;const onKey=(event:KeyboardEvent)=>{const t
 {playing&&round?renderPlay():<section className="game-card" aria-label="Flag challenge">
   {finished?<Results score={correct} total={total} history={history} onClose={reset} onPlayAgain={start}/>:<>
  <div className="card-bottom">{howTo?<HowToPlay onBack={()=>setHowTo(false)} onStart={start}/>:<><div className="mode-panel" hidden={mode!=='play'}>{setupForm}</div><div className="mode-panel" hidden={mode!=='learn'}><LearnState/></div></>}</div></>}
-</section>}</main>}
+</section>}{!playing&&!finished&&<SiteFooter/>}</main>}

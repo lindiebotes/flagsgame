@@ -19,3 +19,9 @@
 .button--primary,.button--secondary{font:var(--text-action)}
 .button--outline{font:var(--text-action-outline)}
 .button--text{font:var(--text-action)}
+/* Standard primary + secondary buttons: same height, border, padding and font everywhere */
+:root,.app-shell{--button-height:56px;--button-border:2px solid var(--color-border-strong);--button-standalone-width:360px}
+@media(max-width:650px){:root,.app-shell{--button-height:48px}}
+.app-shell .button.button--primary,.app-shell .button.button--secondary{box-sizing:border-box!important;height:var(--button-height)!important;min-height:var(--button-height)!important;padding:0 24px!important;border:var(--button-border)!important;border-radius:var(--radius-pill)!important;font:var(--text-action)!important;display:inline-flex;align-items:center;justify-content:center;gap:10px}
+.app-shell .setup-bar .button,.app-shell .results-actions .button,.app-shell .how-to-actions .button{width:min(100%,var(--button-standalone-width))!important;min-width:0!important;max-width:100%}
+@media(max-width:650px){.app-shell .setup-bar .button,.app-shell .results-actions .button,.app-shell .how-to-actions .button{width:100%!important}}

@@ -111,3 +111,13 @@
   .answer-format-option{min-height:38px;padding:.35rem}
   .setup-bar .button{min-height:44px;padding-block:12px}
 }
+@media(min-width:651px) and (max-width:850px){
+  .app-shell .setup{gap:32px;padding:32px}
+  .app-shell .setup-heading#setup-difficulty{padding-top:0}
+  .app-shell .setup-heading{margin-bottom:12px}
+}
+.app-shell .setup-see-all{display:inline-flex;align-items:center;gap:6px;font:var(--text-section-heading);font-weight:var(--font-weight-semibold);transition:color .15s ease}
+.app-shell .setup-see-all svg{transition:transform .15s ease}
+@media(hover:hover){.app-shell .setup-see-all:hover{color:#1a3a80}.app-shell .setup-see-all:hover svg{transform:translateX(3px)}}
+.app-shell .setup-see-all{font:var(--text-section-heading);font-size:calc(var(--font-size-section-heading) * .9);font-weight:var(--font-weight-semibold);color:#0047ab}
+@media(hover:hover){.app-shell .setup-see-all:hover{color:#002f73}}

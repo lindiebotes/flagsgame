@@ -9,7 +9,7 @@ import {LearnFilters} from './LearnFilters';
 import './LearnState.css';
 
 const normalize=(text:string)=>text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
-const packName=(name:string)=>name==='Territories and islands'?'Territory and island flags':name;
+const packName=(name:string)=>name==='US state flags'?'US states':name;
 const packs=[...new Set(flags.map(flag=>flag.set))].sort((a,b)=>packName(a).localeCompare(packName(b)));
 
 export function LearnState(){
