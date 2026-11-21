@@ -17,11 +17,11 @@ type Props={
 
 export function SetupForm({levels,level,onLevel,packs,selected,onTogglePack,format,onFormat,onStart}:Props){
   const [browsing,setBrowsing]=useState(false);
-  const featured=[...packs].sort((a,b)=>a.label.localeCompare(b.label)).slice(0,5).map(pack=>pack.id);
+  const featured=[...packs].sort((a,b)=>a.label.localeCompare(b.label)).slice(0,4).map(pack=>pack.id);
   const showBrowser=(open:boolean)=>transitionScreen(()=>setBrowsing(open),open?'forward':'back');
   const noPack=selected.length===0;
   const additionalSelected=selected.filter(id=>!featured.includes(id)&&packs.some(pack=>pack.id===id));
-  let remainingUnselected=Math.max(0,5-selected.length);
+  let remainingUnselected=Math.max(0,4-selected.length);
   const visiblePacks=[...featured.filter(id=>selected.includes(id)||remainingUnselected-->0),...additionalSelected];
   if(browsing)return <div className="setup setup--browsing"><FlagPackBrowser packs={packs} selected={selected} onTogglePack={onTogglePack} onClose={()=>showBrowser(false)}/></div>;
   return <div className="setup">
