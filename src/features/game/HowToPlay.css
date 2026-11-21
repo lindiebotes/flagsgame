@@ -20,8 +20,6 @@
 @media(max-width:900px){
   .how-to-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
   .how-to-card{min-height:0;padding:18px}
-  .how-to-mini-options{flex-wrap:wrap}
-  .how-to-mini-options span{padding:7px 8px;font-size:var(--font-size-small)}
 }
 @media(max-width:650px){
   .game-page:has(.how-to-screen) .intro-title .header-button{width:32px;height:32px}
@@ -51,8 +49,6 @@
   .how-to-illustration{min-height:150px;margin:var(--space-2) 0}
   .how-to-card .pixel-preview,.how-to-reveal-art img{width:min(100%,200px)}
   .how-to-guess-art{gap:var(--space-2)}
-  .how-to-mini-options{gap:4px}
-  .how-to-mini-options span{padding:5px 6px;font-size:var(--font-size-sm)}
   .how-to-reveal-art{gap:var(--space-2)}
   .how-to-actions{margin-top:var(--space-3)}
   .how-to-actions .button{min-height:48px}

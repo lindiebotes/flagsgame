@@ -3024,5 +3024,465 @@
         "percent": 33
       }
     ]
+  },
+  {
+    "name": "Sri Lanka",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      7.9,
+      80.7
+    ],
+    "palette": [
+      {
+        "color": "#6b1623",
+        "percent": 60
+      },
+      {
+        "color": "#eb7f00",
+        "percent": 10
+      },
+      {
+        "color": "#007a33",
+        "percent": 10
+      },
+      {
+        "color": "#ffb81c",
+        "percent": 20
+      }
+    ]
+  },
+  {
+    "name": "Mexico",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      23.6,
+      -102.5
+    ],
+    "palette": [
+      {
+        "color": "#006341",
+        "percent": 33
+      },
+      {
+        "color": "#ffffff",
+        "percent": 34
+      },
+      {
+        "color": "#ce1126",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Bhutan",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      27.5,
+      90.4
+    ],
+    "palette": [
+      {
+        "color": "#ffcc33",
+        "percent": 45
+      },
+      {
+        "color": "#ff4e12",
+        "percent": 45
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Moldova",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      47.4,
+      28.4
+    ],
+    "palette": [
+      {
+        "color": "#003da5",
+        "percent": 32
+      },
+      {
+        "color": "#ffd200",
+        "percent": 36
+      },
+      {
+        "color": "#cc092f",
+        "percent": 32
+      }
+    ]
+  },
+  {
+    "name": "Egypt",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      26.8,
+      30.8
+    ],
+    "palette": [
+      {
+        "color": "#ce1126",
+        "percent": 33
+      },
+      {
+        "color": "#ffffff",
+        "percent": 34
+      },
+      {
+        "color": "#000000",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Serbia",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      44.02,
+      21.01
+    ],
+    "palette": [
+      {
+        "color": "#c6363c",
+        "percent": 34
+      },
+      {
+        "color": "#0c4076",
+        "percent": 33
+      },
+      {
+        "color": "#ffffff",
+        "percent": 33
+      }
+    ]
+  },
+  {
+    "name": "Kiribati",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      1.87,
+      -157.4
+    ],
+    "palette": [
+      {
+        "color": "#ce1126",
+        "percent": 45
+      },
+      {
+        "color": "#ffd100",
+        "percent": 10
+      },
+      {
+        "color": "#003f87",
+        "percent": 35
+      },
+      {
+        "color": "#fff",
+        "percent": 10
+      }
+    ]
+  },
+  {
+    "name": "Bermuda",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bermuda.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      32.3,
+      -64.8
+    ],
+    "palette": [
+      {
+        "color": "#c8102e",
+        "percent": 70
+      },
+      {
+        "color": "#00247d",
+        "percent": 10
+      },
+      {
+        "color": "#fff",
+        "percent": 15
+      },
+      {
+        "color": "#ffd700",
+        "percent": 5
+      }
+    ]
+  },
+  {
+    "name": "Albania",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      41.15,
+      20.17
+    ],
+    "palette": [
+      {
+        "color": "#ff0000",
+        "percent": 87.8
+      },
+      {
+        "color": "#000000",
+        "percent": 12.2
+      }
+    ]
+  },
+  {
+    "name": "Uganda",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      1.37,
+      32.29
+    ],
+    "palette": [
+      {
+        "color": "#fcdc04",
+        "percent": 33.5
+      },
+      {
+        "color": "#000000",
+        "percent": 31.4
+      },
+      {
+        "color": "#d90000",
+        "percent": 31.0
+      },
+      {
+        "color": "#ffffff",
+        "percent": 3.9
+      },
+      {
+        "color": "#9ca69c",
+        "percent": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Wales",
+    "region": "Europe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Wales.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      52.13,
+      -3.78
+    ],
+    "palette": [
+      {
+        "color": "#ffffff",
+        "percent": 33.3
+      },
+      {
+        "color": "#00b140",
+        "percent": 32.7
+      },
+      {
+        "color": "#c8102e",
+        "percent": 30.3
+      },
+      {
+        "color": "#000000",
+        "percent": 3.7
+      }
+    ]
+  },
+  {
+    "name": "Ecuador",
+    "region": "South America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      -1.83,
+      -78.18
+    ],
+    "palette": [
+      {
+        "color": "#ffdd00",
+        "percent": 47.5
+      },
+      {
+        "color": "#ed1c24",
+        "percent": 25.7
+      },
+      {
+        "color": "#034ea2",
+        "percent": 21.6
+      },
+      {
+        "color": "#452c25",
+        "percent": 1.2
+      },
+      {
+        "color": "#b1babf",
+        "percent": 0.7
+      },
+      {
+        "color": "#c69024",
+        "percent": 0.7
+      },
+      {
+        "color": "#557176",
+        "percent": 0.6
+      },
+      {
+        "color": "#281915",
+        "percent": 0.5
+      },
+      {
+        "color": "#6dbe45",
+        "percent": 0.4
+      },
+      {
+        "color": "#0075af",
+        "percent": 0.4
+      },
+      {
+        "color": "#1ea8d1",
+        "percent": 0.3
+      },
+      {
+        "color": "#ffffff",
+        "percent": 0.2
+      },
+      {
+        "color": "#dcddde",
+        "percent": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Zambia",
+    "region": "Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      -13.13,
+      27.85
+    ],
+    "palette": [
+      {
+        "color": "#147f55",
+        "percent": 74.5
+      },
+      {
+        "color": "#f99815",
+        "percent": 9.6
+      },
+      {
+        "color": "#000000",
+        "percent": 8.2
+      },
+      {
+        "color": "#d40829",
+        "percent": 7.7
+      }
+    ]
+  },
+  {
+    "name": "Kazakhstan",
+    "region": "Asia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      48.02,
+      66.92
+    ],
+    "palette": [
+      {
+        "color": "#00abc2",
+        "percent": 91.5
+      },
+      {
+        "color": "#ffec2d",
+        "percent": 8.5
+      }
+    ]
+  },
+  {
+    "name": "Papua New Guinea",
+    "region": "Oceania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      -6.31,
+      143.96
+    ],
+    "palette": [
+      {
+        "color": "#000000",
+        "percent": 48.3
+      },
+      {
+        "color": "#c8102e",
+        "percent": 44.4
+      },
+      {
+        "color": "#ffcd00",
+        "percent": 5.6
+      },
+      {
+        "color": "#ffffff",
+        "percent": 1.7
+      }
+    ]
+  },
+  {
+    "name": "Dominica",
+    "region": "North America",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Dominica.svg",
+    "set": "Animal flags",
+    "coordinates": [
+      15.41,
+      -61.37
+    ],
+    "palette": [
+      {
+        "color": "#046a38",
+        "percent": 65.7
+      },
+      {
+        "color": "#000000",
+        "percent": 8.7
+      },
+      {
+        "color": "#ffcd00",
+        "percent": 8.7
+      },
+      {
+        "color": "#ffffff",
+        "percent": 8.6
+      },
+      {
+        "color": "#d50032",
+        "percent": 7.9
+      },
+      {
+        "color": "#9063cd",
+        "percent": 0.4
+      }
+    ]
   }
 ]

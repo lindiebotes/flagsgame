@@ -20,7 +20,9 @@ export function SetupForm({levels,level,onLevel,packs,selected,onTogglePack,form
   const [featured]=useState(()=>{const ids=packs.map(pack=>pack.id);for(let i=ids.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[ids[i],ids[j]]=[ids[j],ids[i]]}return ids.slice(0,5)});
   const showBrowser=(open:boolean)=>transitionScreen(()=>setBrowsing(open),open?'forward':'back');
   const noPack=selected.length===0;
-  const hiddenSelected=packs.filter(pack=>selected.includes(pack.id)&&!featured.includes(pack.id));
+  const additionalSelected=selected.filter(id=>!featured.includes(id)&&packs.some(pack=>pack.id===id));
+  let remainingUnselected=Math.max(0,5-selected.length);
+  const visiblePacks=[...featured.filter(id=>selected.includes(id)||remainingUnselected-->0),...additionalSelected];
   if(browsing)return <div className="setup setup--browsing"><FlagPackBrowser packs={packs} selected={selected} onTogglePack={onTogglePack} onClose={()=>showBrowser(false)}/></div>;
   return <div className="setup">
     <section className="setup-section">
@@ -32,9 +34,8 @@ export function SetupForm({levels,level,onLevel,packs,selected,onTogglePack,form
     <section className="setup-section">
       <div className="setup-packs-heading"><h2 className="setup-heading" id="setup-packs">Flag packs</h2><button type="button" className="setup-see-all" onClick={()=>showBrowser(true)}>See all</button></div>
       <div role="group" aria-labelledby="setup-packs" className="setup-packs">
-        {featured.map(id=>packs.find(pack=>pack.id===id)).filter((pack):pack is FlagPack=>Boolean(pack)).map(pack=><FlagSetOption key={pack.id} label={pack.label} count={pack.count} previews={pack.previews} selected={selected.includes(pack.id)} onChange={()=>onTogglePack(pack.id)}/>)}
+        {visiblePacks.map(id=>packs.find(pack=>pack.id===id)).filter((pack):pack is FlagPack=>Boolean(pack)).map(pack=><FlagSetOption key={pack.id} label={pack.label} count={pack.count} previews={pack.previews} selected={selected.includes(pack.id)} onChange={()=>onTogglePack(pack.id)}/>)}
       </div>
-      {hiddenSelected.length>0&&<p className="setup-hidden-selected">Also selected: {hiddenSelected.map(pack=>pack.label).join(', ')}</p>}
     </section>
     <section className="setup-section">
       <h2 className="setup-heading" id="setup-format">Answer format</h2>

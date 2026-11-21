@@ -1,9 +1,11 @@
-.learn-state{padding:var(--space-7) var(--space-5);min-height:280px}
-.learn-state h2{font:var(--text-card-heading);max-width:420px;margin:var(--space-2) 0 var(--space-3)}
-.learn-state p{font:var(--text-body);max-width:420px;color:var(--color-text-supporting);margin:0 0 var(--space-5)}
+.learn-state{padding:var(--space-5);min-height:280px}
+.game-page .card-bottom:has(>.mode-panel>.learn-state){padding:0}
+.learn-list{list-style:none;margin:var(--space-3) 0 0;padding:0}
+.learn-empty{margin:var(--space-5) 0;color:var(--color-text-supporting);font:var(--text-body)}
 @media(prefers-reduced-motion:no-preference){
-  .learn-state>*{animation:learn-content-enter 420ms ease-out both}
-  .learn-state>*:nth-child(2){animation-delay:55ms}
+  .mode-panel:not([hidden]) .learn-state>.learn-list{animation:learn-content-enter 420ms ease-out both}
+  .mode-panel:not([hidden]) .learn-state>.learn-list{animation-delay:55ms}
+  .reduce-motion .learn-state>*{animation:none!important}
   @keyframes learn-content-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 }
-@media(max-width:650px){.learn-state{padding:var(--space-5) 0}}
+@media(max-width:650px){.learn-state{padding:0}}

@@ -20,7 +20,7 @@ export function buildBlocks(palette:Palette,seed:string,cells=CELLS):string[]{
 }
 export function ColorGrid({palette,seed}:Props){
   const blocks=useMemo(()=>buildBlocks(palette,seed),[palette,seed]);
-  return <div className="color-grid" role="img" aria-label="Pixelated flag shown as equal blocks of its colours">
+  return <div className="color-grid" role="img" aria-label="Pixelated flag shown as equal blocks of its colors">
     {blocks.map((color,i)=><span key={i} className="color-grid-cell" style={{background:color}}/>)}
   </div>;
 }

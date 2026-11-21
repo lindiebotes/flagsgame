@@ -25,7 +25,7 @@ type Flag=typeof flags[number];
 type Round={flag:Flag;options:Flag[]};
 type Outcome='first'|'later'|'with-hint'|'missed';
 type Entry={flag:Flag;answer:string;correct:boolean;firstTry:boolean;attempts:number;outcome:Outcome;hintUsed:boolean;note?:'revealed'|'hint'};
-const flagSets=[{label:'Common flags'},{label:'Rare flags'},{label:'Territories and islands'},{label:'US state flags'},{label:'Japanese prefectures'}];
+const flagSets=[{label:'Common flags'},{label:'Rare flags'},{label:'Territories and islands'},{label:'US state flags'},{label:'Japanese prefectures'},{label:'Animal flags'}];
 const levels=[{label:'Easy',columns:14,guesses:1},{label:'Medium',columns:8,guesses:3},{label:'Expert',columns:0,guesses:1,colorsOnly:true}];
 const missReactions=['Not quite.','Oh no!','Dang it!','Blistering barnacles!','Oof!','Yikes!','Well, drat!'];
 const successReactions=['Great!','Fantastic!','Incredible!','Impressive!','Noice!','Good stuff!','Sweet!','Heck yeah!'];
@@ -59,7 +59,7 @@ const renderPlay=()=>{
   const usedHint=continentHint||shareHint;
   const feedback=done
     ?(gaveUp?flagIdentitySentence(flag.name):isRight&&usedHint?`${successReactions[index%successReactions.length]} Correct with a hint.`:isRight?successReactions[index%successReactions.length]:`${missReactions[index%missReactions.length]} ${flagIdentitySentence(flag.name)}`)
-    :isExpert&&(continentHint||shareHint)
+    :(isExpert||japaneseName)&&(continentHint||shareHint)
       ?<>{continentHint&&(japaneseName?<strong lang="ja">{japaneseName}</strong>:<span>Continent: <strong>{flag.region}</strong></span>)}{shareHint&&<ColorSharePie palette={expertColors}/>}</>
       :wrongPicks.length>0?`${attemptsLeft} ${attemptsLeft===1?'guess':'guesses'} left`:null;
   const stage=<>
@@ -72,14 +72,16 @@ const renderPlay=()=>{
       const status=done&&gaveUp&&option.name===flag.name?'answer':done&&option.name===flag.name?'correct':(wrongPicks.includes(option.name)||(done&&option.name===choice))?'wrong':undefined;
       return <AnswerOption key={option.name} name={option.name} index={i} selected={!done&&option.name===(choice??keyChoice)} dimmed={done&&!status} disabled={locked||!ready||wrongPicks.includes(option.name)} status={status} onClick={()=>answer(option.name)}/>;
     });
-  const hints=!locked&&!done&&isExpert?<div className="play-hints"><h3 className="play-hints-title">Hints</h3><div className="play-hint-buttons">{(hasContinent||japaneseName)&&<Button variant="outline" className="play-hint" onClick={()=>setContinentHint(true)} disabled={!ready||continentHint}>{japaneseName?'Japanese name':'Show continent'}</Button>}{expertColors.length>0&&<Button variant="outline" className="play-hint play-hint--share" onClick={()=>setShareHint(true)} disabled={!ready||shareHint}>Show colour share</Button>}</div></div>:null;
+  const showNameOrContinent=Boolean(japaneseName||(isExpert&&hasContinent));
+  const showColorShare=isExpert&&expertColors.length>0;
+  const hints=!locked&&!done&&(showNameOrContinent||showColorShare)?<div className="play-hints"><h3 className="play-hints-title">{showNameOrContinent&&showColorShare?'Hints':'Hint'}</h3><div className="play-hint-buttons">{showNameOrContinent&&<Button variant="outline" className="play-hint" onClick={()=>setContinentHint(true)} disabled={!ready||continentHint}>{japaneseName?'Japanese name':'Show continent'}</Button>}{showColorShare&&<Button variant="outline" className="play-hint play-hint--share" onClick={()=>setShareHint(true)} disabled={!ready||shareHint}>Show color share</Button>}</div></div>:null;
   const action=locked||done
     ?<Button onClick={next} disabled={!done}>{index===total-1?'See results':'Next flag'}</Button>
     :<>
       <Button variant="secondary" className="play-give-up" onClick={reveal} disabled={!ready}>Give up</Button>
       {answerFormat==='typed'&&<Button type="submit" form="typed-answer-form" className="play-check" disabled={!ready||!typedAnswerReady}>Check</Button>}
     </>;
-  return <Play question="Which prefecture's flag is this?" index={index} total={total} completed={history.map(entry=>entry.outcome)} onQuit={reset} stage={stage} feedback={<><span className={`play-feedback-text${done&&!gaveUp&&isRight?(usedHint?' is-later':' is-correct'):done&&!gaveUp?' is-incorrect':''}`}>{feedback}</span>{done&&<LocationPreview key={flag.name} compact name={flag.name} parent={'parentCountry' in flag?flag.parentCountry:undefined} coordinates={flag.coordinates}/>}</>} answers={answers} typed={answerFormat==='typed'} hints={hints} action={action}/>;
+  return <Play question={flag.set==='Japanese prefectures'?"Which prefecture's flag is this?":undefined} index={index} total={total} completed={history.map(entry=>entry.outcome)} onQuit={reset} stage={stage} feedback={<><span className={`play-feedback-text${done&&!gaveUp&&isRight?(usedHint?' is-later':' is-correct'):done&&!gaveUp?' is-incorrect':''}`}>{feedback}</span>{done&&<LocationPreview key={flag.name} compact name={flag.name} parent={'parentCountry' in flag?flag.parentCountry:undefined} coordinates={flag.coordinates}/>}</>} answers={answers} typed={answerFormat==='typed'} hints={hints} action={action}/>;
 };
 useEffect(()=>{if(!showResult)return;const onKey=(event:KeyboardEvent)=>{const t=event.target as HTMLElement|null;if(event.key!=='Enter'||event.repeat||['BUTTON','A','INPUT','TEXTAREA'].includes(t?.tagName||'')||document.querySelector('[role="dialog"]'))return;event.preventDefault();next()};window.addEventListener('keydown',onKey);return()=>window.removeEventListener('keydown',onKey)});
  const setupForm=<SetupForm levels={['n00b','Mid','Boss mode']} level={level} onLevel={setLevel} packs={flagSets.map(set=>({id:set.label,label:displaySetName(set.label),count:new Set(flags.filter(flag=>flag.set===set.label).map(flag=>flag.name)).size,previews:flags.filter(flag=>flag.set===set.label).slice(0,3).map(flag=>flag.imageUrl),names:flags.filter(flag=>flag.set===set.label).flatMap(flag=>[flag.name,...('parentCountry' in flag&&flag.parentCountry?[flag.parentCountry]:[])])}))} selected={selectedSets} onTogglePack={id=>setSelectedSets(current=>current.includes(id)?current.filter(item=>item!==id):[...current,id])} format={answerFormat} onFormat={changeAnswerFormat} onStart={start}/>;

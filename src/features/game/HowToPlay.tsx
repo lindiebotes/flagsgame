@@ -13,10 +13,10 @@ export function HowToPlay({onBack,onStart}:{onBack:()=>void;onStart:()=>void}){
       <p>Guess the flag from its pixels. Each game is 10 flags.</p>
     </header>
     <section className="how-to-cards" aria-label="How to play">
-      <HowToCard step={1} title="See it" description="Easy uses 14 columns; Medium uses 8 larger columns; Expert shuffles the flag’s colours.">
+      <HowToCard step={1} title="See it" description="Noob mode has more pixel details, mid has less, and boss mode shuffles the flag colors.">
         <PixelPreview url={southAfrica.imageUrl} level="medium" seed="south-africa-sample"/>
       </HowToCard>
-      <HowToCard step={2} title="Guess it" description="Choose or type your answer. Medium allows up to three tries when extra guesses are enabled. Correct answers count; first tries build your personal best.">
+      <HowToCard step={2} title="Guess it" description="Choose or type your answer.">
         <div className="how-to-guess-art">
           <PixelPreview url={southAfrica.imageUrl} level="medium" seed="south-africa-sample"/>
           <div className="how-to-mini-options" aria-hidden="true">
@@ -24,7 +24,7 @@ export function HowToPlay({onBack,onStart}:{onBack:()=>void;onStart:()=>void}){
           </div>
         </div>
       </HowToCard>
-      <HowToCard step={3} title="Reveal it" description="Hints can reveal the continent or colour share. Correct answers with a hint get a separate amber “With hint” result. Giving up or running out of tries is a miss.">
+      <HowToCard step={3} title="Reveal it" description="Hints can reveal the continent or color share. ">
         <div className="how-to-reveal-art">
           <FlagImage url={southAfrica.imageUrl} alt="" loading="lazy"/>
           <div className="how-to-reveal-answer"><strong>South Africa</strong><span aria-label="Correct answer" role="img" className="how-to-check"/></div>

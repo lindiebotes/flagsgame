@@ -1,0 +1,35 @@
+Animal flags: local SVG backups
+
+The following SVGs are sourced from Wikimedia Commons via the Hata flag collection (https://github.com/johnmorrisdotca/hata). Hata identifies each as public domain; flag and insignia restrictions may apply.
+
+Albania: https://commons.wikimedia.org/wiki/File:Flag_of_Albania.svg
+Author: Sadik Kaceli
+Licence: Public domain; attribution required: no.
+
+Uganda: https://commons.wikimedia.org/wiki/File:Flag_of_Uganda.svg
+Author: tobias
+Licence: Public domain; attribution required: no.
+
+Wales: https://commons.wikimedia.org/wiki/File:Flag_of_Wales.svg
+Author: Unknown Vector graphics by Tobias Jakobs
+Licence: Public domain; attribution required: no.
+
+Ecuador: https://commons.wikimedia.org/wiki/File:Flag_of_Ecuador.svg
+Author: President of the Republic of Ecuador, first uploaded by Denelson83 as Flag of Ecuador.svg, modifications by Husunqu, Zscout370
+Licence: Public domain; attribution required: no.
+
+Zambia: https://commons.wikimedia.org/wiki/File:Flag_of_Zambia.svg
+Author: Gabriel Ellison
+Licence: Public domain; attribution required: no.
+
+Kazakhstan: https://commons.wikimedia.org/wiki/File:Flag_of_Kazakhstan.svg
+Author: Shaken Niyazbekop
+Licence: Public domain; attribution required: no.
+
+Papua New Guinea: https://commons.wikimedia.org/wiki/File:Flag_of_Papua_New_Guinea.svg
+Author: User:Nightstallion
+Licence: Public domain; attribution required: no.
+
+Dominica: https://commons.wikimedia.org/wiki/File:Flag_of_Dominica.svg
+Author: Alwin Bully
+Licence: Public domain; attribution required: no.
